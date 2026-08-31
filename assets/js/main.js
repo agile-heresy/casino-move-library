@@ -2,6 +2,38 @@ function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function scrollToHashTarget() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+
+  const target = document.getElementById(id);
+  if (!target) return;
+
+  const panel = target.closest('.tab-panel');
+  if (panel) {
+    const tabName = panel.dataset.panel;
+    const button = document.querySelector(`.tab-button[data-tab="${tabName}"]`);
+    if (button && !button.classList.contains('is-active')) {
+      button.click();
+    }
+  }
+
+  requestAnimationFrame(() => {
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    target.classList.add('move-card--highlight');
+    setTimeout(() => target.classList.remove('move-card--highlight'), 2500);
+  });
+}
+
 function createPanel({ dataUrl, elementSuffix, normalize }) {
   const state = {
     moves: [],
@@ -86,6 +118,25 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
   function createMoveCard(move) {
     const card = document.createElement('article');
     card.className = 'move-card';
+    card.id = move._id;
+
+    const shareButton = document.createElement('button');
+    shareButton.type = 'button';
+    shareButton.className = 'share-button';
+    shareButton.setAttribute('aria-label', 'Copy link to this move');
+    shareButton.textContent = '🔗';
+    shareButton.addEventListener('click', () => {
+      const url = `${location.origin}${location.pathname}#${move._id}`;
+      history.replaceState(null, '', `#${move._id}`);
+      navigator.clipboard?.writeText(url).then(
+        () => {
+          shareButton.textContent = '✓';
+          setTimeout(() => (shareButton.textContent = '🔗'), 1500);
+        },
+        () => {},
+      );
+    });
+    card.append(shareButton);
 
     const altNames = move.altNames ?? [];
     const variants = move.variants ?? [];
@@ -248,11 +299,15 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const data = await response.json();
     const { moves, sectionNotes } = normalize(data);
 
-    state.moves = moves;
+    state.moves = moves.map((move, index) => ({
+      ...move,
+      _id: `${elementSuffix}-${index}-${slugify(move.name)}`,
+    }));
     state.sectionNotes = sectionNotes;
 
     populateFilterOptions(state.moves);
     render();
+    scrollToHashTarget();
 
     searchInput.addEventListener('input', (e) => {
       state.search = e.target.value;
@@ -317,6 +372,8 @@ createPanel({
     sectionNotes: data.sectionNotes ?? {},
   }),
 });
+
+window.addEventListener('hashchange', scrollToHashTarget);
 
 function initThemeToggle() {
   const button = document.getElementById('theme-toggle');

@@ -332,6 +332,7 @@ main {
 }
 
 .move-card {
+  position: relative;
   background: var(--surface);
   border: 1px solid var(--border);
   border-top: 3px solid var(--accent);
@@ -353,8 +354,44 @@ main {
   border-top-color: var(--ruby);
 }
 
+.move-card--highlight {
+  animation: card-highlight 2.5s ease;
+}
+
+@keyframes card-highlight {
+  0% {
+    box-shadow: 0 0 0 3px var(--accent), 0 8px 20px var(--shadow);
+  }
+  100% {
+    box-shadow: 0 2px 10px var(--shadow);
+  }
+}
+
+.share-button {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--text-muted);
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.share-button:hover {
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+}
+
 .move-card h4 {
   margin: 0;
+  padding-right: 1.6rem;
   font-family: var(--font-display);
   font-size: 1.05rem;
   color: var(--text);
