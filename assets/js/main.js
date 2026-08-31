@@ -95,44 +95,71 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     card.append(title);
 
     if (altNames.length > 0) {
-      const akaEl = document.createElement('p');
+      const akaEl = document.createElement('div');
       akaEl.className = 'move-aka';
-      const formatted = altNames.map((alt) =>
-        alt.translation ? `${alt.name} (${alt.translation})` : alt.name,
-      );
-      akaEl.textContent = `aka ${formatted.join(', ')}`;
+
+      const label = document.createElement('span');
+      label.className = 'aka-label';
+      label.textContent = 'Also known as';
+      akaEl.append(label);
+
+      const list = document.createElement('ul');
+      list.className = 'aka-list';
+      for (const alt of altNames) {
+        const item = document.createElement('li');
+        item.className = 'aka-item';
+
+        const itemName = document.createElement('span');
+        itemName.className = 'aka-item-name';
+        itemName.textContent = alt.name;
+        item.append(itemName);
+
+        if (alt.translation) {
+          const itemTranslation = document.createElement('span');
+          itemTranslation.className = 'aka-item-translation';
+          itemTranslation.textContent = alt.translation;
+          item.append(itemTranslation);
+        }
+
+        list.append(item);
+      }
+      akaEl.append(list);
+
       card.append(akaEl);
     }
 
     if (variants.length > 0) {
-      const variantsEl = document.createElement('div');
-      variantsEl.className = 'move-variants';
+      const variantsWrap = document.createElement('div');
+      variantsWrap.className = 'move-variants';
 
       const label = document.createElement('span');
       label.className = 'variants-label';
       label.textContent = 'Variants';
-      variantsEl.append(label);
+      variantsWrap.append(label);
 
+      const list = document.createElement('ul');
+      list.className = 'variant-list';
       for (const variant of variants) {
-        const chip = document.createElement('span');
-        chip.className = 'variant-chip';
+        const item = document.createElement('li');
+        item.className = 'variant-item';
 
-        const chipName = document.createElement('span');
-        chipName.className = 'variant-chip-name';
-        chipName.textContent = variant.name;
-        chip.append(chipName);
+        const itemName = document.createElement('span');
+        itemName.className = 'variant-item-name';
+        itemName.textContent = variant.name;
+        item.append(itemName);
 
         if (variant.translation) {
-          const chipTranslation = document.createElement('span');
-          chipTranslation.className = 'variant-chip-translation';
-          chipTranslation.textContent = variant.translation;
-          chip.append(chipTranslation);
+          const itemTranslation = document.createElement('span');
+          itemTranslation.className = 'variant-item-translation';
+          itemTranslation.textContent = variant.translation;
+          item.append(itemTranslation);
         }
 
-        variantsEl.append(chip);
+        list.append(item);
       }
+      variantsWrap.append(list);
 
-      card.append(variantsEl);
+      card.append(variantsWrap);
     }
 
     if (move.translation) {

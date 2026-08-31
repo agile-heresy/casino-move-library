@@ -299,16 +299,57 @@ main {
 
 .move-aka {
   margin: 0;
+  padding: 0.4rem 0.6rem;
+  background: var(--accent-soft);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.aka-list {
+  margin: 0.3rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.aka-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.aka-item-name {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.aka-item-translation {
   color: var(--text-muted);
-  font-size: 0.78rem;
   font-style: italic;
+}
+
+.aka-item-translation::before {
+  content: '\2013';
+  margin-right: 0.35rem;
+}
+
+.aka-label {
+  display: block;
+  color: var(--accent-strong);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .move-variants {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.35rem;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .variants-label {
@@ -319,26 +360,41 @@ main {
   color: var(--text-muted);
 }
 
-.variant-chip {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.3rem;
-  padding: 0.1rem 0.5rem;
-  border-radius: 999px;
-  background: var(--surface-alt);
-  border: 1px solid var(--border);
-  color: var(--text);
-  font-size: 0.72rem;
+.variant-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
-.variant-chip-translation {
+.variant-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  padding: 0.15rem 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.variant-item:last-child {
+  border-bottom: none;
+}
+
+.variant-item-name {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.variant-item-translation {
   color: var(--text-muted);
   font-style: italic;
 }
 
-.variant-chip-translation::before {
+.variant-item-translation::before {
   content: '\2013';
-  margin-right: 0.3rem;
+  margin-right: 0.35rem;
 }
 
 .move-note {
