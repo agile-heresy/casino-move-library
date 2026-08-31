@@ -94,6 +94,23 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     title.textContent = move.name;
     card.append(title);
 
+    if (move.translation) {
+      const gloss = document.createElement('p');
+      gloss.className = 'move-translation';
+
+      const label = document.createElement('span');
+      label.className = 'translation-label';
+      label.textContent = 'EN';
+      gloss.append(label);
+
+      const text = document.createElement('span');
+      text.className = 'translation-text';
+      text.textContent = capitalize(move.translation);
+      gloss.append(text);
+
+      card.append(gloss);
+    }
+
     if (altNames.length > 0) {
       const akaEl = document.createElement('div');
       akaEl.className = 'move-aka';
@@ -160,23 +177,6 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
       variantsWrap.append(list);
 
       card.append(variantsWrap);
-    }
-
-    if (move.translation) {
-      const gloss = document.createElement('p');
-      gloss.className = 'move-translation';
-
-      const label = document.createElement('span');
-      label.className = 'translation-label';
-      label.textContent = 'EN';
-      gloss.append(label);
-
-      const text = document.createElement('span');
-      text.className = 'translation-text';
-      text.textContent = capitalize(move.translation);
-      gloss.append(text);
-
-      card.append(gloss);
     }
 
     if (move.note) {
