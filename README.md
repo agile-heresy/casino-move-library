@@ -1,4 +1,5 @@
 # casino-move-library
+
 A webpage hosting a list of links to casino moves
 
 A static, searchable/filterable library of Rueda de Casino dance moves, organized by section (Individual Couple Moves, Rueda Structures) and category (Musicality, Enchufla, Caminala, etc.), each linking to a demo video. Built with plain HTML/CSS/JS so it can be published directly via GitHub Pages — no build step required.
