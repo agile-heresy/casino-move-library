@@ -320,12 +320,25 @@ main {
 }
 
 .variant-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
   background: var(--surface-alt);
   border: 1px solid var(--border);
   color: var(--text);
   font-size: 0.72rem;
+}
+
+.variant-chip-translation {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.variant-chip-translation::before {
+  content: '\2013';
+  margin-right: 0.3rem;
 }
 
 .move-note {

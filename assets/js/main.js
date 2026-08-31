@@ -2,20 +2,6 @@ function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
-// Parentheses hold variants of a move; slashes separate alternate names for the same move.
-function parseMoveName(name) {
-  const match = name.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
-  const base = match ? match[1] : name;
-  const variantText = match ? match[2] : null;
-
-  const [primary, ...altNames] = base.split('/').map((part) => part.trim());
-  const variants = variantText
-    ? variantText.split(',').map((part) => part.trim())
-    : [];
-
-  return { primary, altNames, variants };
-}
-
 function createPanel({ dataUrl, elementSuffix, normalize }) {
   const state = {
     moves: [],
@@ -101,16 +87,20 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const card = document.createElement('article');
     card.className = 'move-card';
 
-    const { primary, altNames, variants } = parseMoveName(move.name);
+    const altNames = move.altNames ?? [];
+    const variants = move.variants ?? [];
 
     const title = document.createElement('h4');
-    title.textContent = primary;
+    title.textContent = move.name;
     card.append(title);
 
     if (altNames.length > 0) {
       const akaEl = document.createElement('p');
       akaEl.className = 'move-aka';
-      akaEl.textContent = `aka ${altNames.join(', ')}`;
+      const formatted = altNames.map((alt) =>
+        alt.translation ? `${alt.name} (${alt.translation})` : alt.name,
+      );
+      akaEl.textContent = `aka ${formatted.join(', ')}`;
       card.append(akaEl);
     }
 
@@ -126,7 +116,19 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
       for (const variant of variants) {
         const chip = document.createElement('span');
         chip.className = 'variant-chip';
-        chip.textContent = variant;
+
+        const chipName = document.createElement('span');
+        chipName.className = 'variant-chip-name';
+        chipName.textContent = variant.name;
+        chip.append(chipName);
+
+        if (variant.translation) {
+          const chipTranslation = document.createElement('span');
+          chipTranslation.className = 'variant-chip-translation';
+          chipTranslation.textContent = variant.translation;
+          chip.append(chipTranslation);
+        }
+
         variantsEl.append(chip);
       }
 

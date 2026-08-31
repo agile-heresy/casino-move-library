@@ -1,10 +1,28 @@
 [
   {
-    "name": "Fly (dos, tres, pa'cielo, pa'bajo)",
+    "name": "Fly",
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "fly (musicality hit) (two, three, to the sky, downward)"
+    "translation": "fly ball",
+    "variants": [
+      {
+        "name": "dos",
+        "translation": "two"
+      },
+      {
+        "name": "tres",
+        "translation": "three"
+      },
+      {
+        "name": "pa'cielo",
+        "translation": "to the sky"
+      },
+      {
+        "name": "pa'bajo",
+        "translation": "downward"
+      }
+    ]
   },
   {
     "name": "Ping Pong",
@@ -13,18 +31,56 @@
     "video": ""
   },
   {
-    "name": "Una Bulla (suave, sexy, dos, largo)",
+    "name": "Una Bulla",
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "a ruckus / commotion (smooth, sexy, two, long)"
+    "translation": "a ruckus / commotion",
+    "variants": [
+      {
+        "name": "suave",
+        "translation": "smooth"
+      },
+      {
+        "name": "sexy",
+        "translation": "sexy"
+      },
+      {
+        "name": "dos",
+        "translation": "two"
+      },
+      {
+        "name": "largo",
+        "translation": "long"
+      }
+    ]
   },
   {
-    "name": "Matala/Suena La/Cucaracha (suave, dos)",
+    "name": "Matala",
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "hit it / play it, the cockroach (smooth, two)"
+    "translation": "hit it / play it, the cockroach",
+    "altNames": [
+      {
+        "name": "Suena La",
+        "translation": "play it / sound it"
+      },
+      {
+        "name": "Cucaracha",
+        "translation": "cockroach"
+      }
+    ],
+    "variants": [
+      {
+        "name": "suave",
+        "translation": "smooth"
+      },
+      {
+        "name": "dos",
+        "translation": "two"
+      }
+    ]
   },
   {
     "name": "Rollatazo",
@@ -34,11 +90,16 @@
     "translation": "big roll"
   },
   {
-    "name": "Echeverría/Zapatos",
+    "name": "Echeverría",
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "Echeverría, shoes"
+    "altNames": [
+      {
+        "name": "Zapatos",
+        "translation": "shoes"
+      }
+    ]
   },
   {
     "name": "Basico",
@@ -159,11 +220,16 @@
     "translation": "tell her no"
   },
   {
-    "name": "Quedate (scorpion)",
+    "name": "Quedate",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "stay put"
+    "translation": "stay put",
+    "variants": [
+      {
+        "name": "scorpion"
+      }
+    ]
   },
   {
     "name": "Kentucky",
@@ -205,10 +271,16 @@
     "translation": "bridge"
   },
   {
-    "name": "Festival (Complicado)",
+    "name": "Festival",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "variants": [
+      {
+        "name": "Complicado",
+        "translation": "complicated"
+      }
+    ]
   },
   {
     "name": "Tumba Francesa",
@@ -245,10 +317,17 @@
     "translation": "with the family"
   },
   {
-    "name": "Con Ella/Vecina",
+    "name": "Con Ella",
     "section": "Individual Couple Moves",
     "category": "Adios",
-    "video": ""
+    "video": "",
+    "altNames": [
+      {
+        "name": "Vecina",
+        "translation": "neighbor"
+      }
+    ],
+    "translation": "with her"
   },
   {
     "name": "Doble",
@@ -374,10 +453,16 @@
     "video": ""
   },
   {
-    "name": "Enchufla Flip (Vuelta)",
+    "name": "Enchufla Flip",
     "section": "Rueda Structures",
     "category": "Pa'fuera",
-    "video": ""
+    "video": "",
+    "variants": [
+      {
+        "name": "Vuelta",
+        "translation": "turn / spin"
+      }
+    ]
   },
   {
     "name": "Pa'medio",
@@ -393,18 +478,30 @@
     "translation": "water from the well"
   },
   {
-    "name": "Americano (con taro)",
+    "name": "Americano",
     "section": "Rueda Structures",
     "category": "Pa'medio",
     "video": "",
-    "translation": "American style (with a spin)"
+    "translation": "American style",
+    "variants": [
+      {
+        "name": "con taro",
+        "translation": "with a spin"
+      }
+    ]
   },
   {
-    "name": "Americana (con tarita)",
+    "name": "Americana",
     "section": "Rueda Structures",
     "category": "Pa'medio",
     "video": "",
-    "translation": "American style (with a little jar)"
+    "translation": "American style",
+    "variants": [
+      {
+        "name": "con tarita",
+        "translation": "with a little jar"
+      }
+    ]
   },
   {
     "name": "Americano Syncronizado",
@@ -434,11 +531,17 @@
     "video": ""
   },
   {
-    "name": "Taro (No le dejes)",
+    "name": "Taro",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
     "video": "",
-    "translation": "spin (colloquial) (don't let her go)"
+    "translation": "spin (colloquial)",
+    "variants": [
+      {
+        "name": "No le dejes",
+        "translation": "don't let her go"
+      }
+    ]
   },
   {
     "name": "Taro Mentira",
@@ -488,18 +591,30 @@
     "translation": "flower"
   },
   {
-    "name": "Hombres Izquierda/Derecha",
+    "name": "Hombres Izquierda",
     "section": "Rueda Structures",
     "category": "Pa'centro",
     "video": "",
-    "translation": "men, left / right"
+    "translation": "men, left",
+    "altNames": [
+      {
+        "name": "Derecha",
+        "translation": "right"
+      }
+    ]
   },
   {
-    "name": "Mujeres Izquierda/Derecha",
+    "name": "Mujeres Izquierda",
     "section": "Rueda Structures",
     "category": "Pa'centro",
     "video": "",
-    "translation": "women, left / right"
+    "translation": "women, left",
+    "altNames": [
+      {
+        "name": "Derecha",
+        "translation": "right"
+      }
+    ]
   },
   {
     "name": "Caja de Bolas",

@@ -48,7 +48,7 @@
       "translation": "tell her no"
     },
     {
-      "name": "Matala (con dos)",
+      "name": "Matala",
       "section": "Beginner",
       "category": "Musicality Calls",
       "videos": [
@@ -56,10 +56,16 @@
           "url": "http://youtu.be/SFbpnoPTxZQ?t=10s"
         }
       ],
-      "translation": "hit it hard (musically) (with two)"
+      "translation": "hit it hard (musically)",
+      "variants": [
+        {
+          "name": "con dos",
+          "translation": "with two"
+        }
+      ]
     },
     {
-      "name": "Una bulla (suave, larga, sexy, Australia, doble, Espanol)",
+      "name": "Una bulla",
       "section": "Beginner",
       "category": "Musicality Calls",
       "videos": [
@@ -67,10 +73,36 @@
           "url": "https://www.youtube.com/watch?v=57nOu7lSy40"
         }
       ],
-      "translation": "a ruckus / commotion (smooth, sexy, Australia, double, Spanish style)"
+      "translation": "a ruckus / commotion",
+      "variants": [
+        {
+          "name": "suave",
+          "translation": "smooth"
+        },
+        {
+          "name": "larga",
+          "translation": "long"
+        },
+        {
+          "name": "sexy",
+          "translation": "sexy"
+        },
+        {
+          "name": "Australia",
+          "translation": "Australia"
+        },
+        {
+          "name": "doble",
+          "translation": "double"
+        },
+        {
+          "name": "Espanol",
+          "translation": "Spanish style"
+        }
+      ]
     },
     {
-      "name": "Fly (doble, triple, higher)",
+      "name": "Fly",
       "section": "Beginner",
       "category": "Musicality Calls",
       "videos": [
@@ -78,14 +110,34 @@
           "url": "https://www.youtube.com/watch?v=sMxJ18AARLk"
         }
       ],
-      "translation": "fly (musicality hit) (double, triple, higher)"
+      "translation": "fly (musicality hit)",
+      "variants": [
+        {
+          "name": "doble",
+          "translation": "double"
+        },
+        {
+          "name": "triple",
+          "translation": "triple"
+        },
+        {
+          "name": "higher",
+          "translation": "higher"
+        }
+      ]
     },
     {
-      "name": "Rolatazo (higher)",
+      "name": "Rolatazo",
       "section": "Beginner",
       "category": "Musicality Calls",
       "videos": [],
-      "translation": "big roll (higher)"
+      "translation": "big roll",
+      "variants": [
+        {
+          "name": "higher",
+          "translation": "higher"
+        }
+      ]
     },
     {
       "name": "Clap between legs",
@@ -203,10 +255,16 @@
       ]
     },
     {
-      "name": "Enchufla palmada (asyncronizada)",
+      "name": "Enchufla palmada",
       "section": "Beginner",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "variants": [
+        {
+          "name": "asyncronizada",
+          "translation": "unsynchronized"
+        }
+      ]
     },
     {
       "name": "Pelota con dos",
@@ -535,10 +593,16 @@
       "videos": []
     },
     {
-      "name": "Enchufla slingshot (enroscate)",
+      "name": "Enchufla slingshot",
       "section": "Intermediate",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "variants": [
+        {
+          "name": "enroscate",
+          "translation": "coil yourself up"
+        }
+      ]
     },
     {
       "name": "El anillo",
@@ -1039,7 +1103,7 @@
       "translation": "rich and smooth"
     },
     {
-      "name": "La de arriba (vacila pa afuera)",
+      "name": "La de arriba",
       "section": "Intermediate II",
       "category": "General",
       "videos": [
@@ -1047,10 +1111,16 @@
           "url": "https://youtu.be/bC-8qSxIniQ"
         }
       ],
-      "translation": "the one from above"
+      "translation": "the one from above",
+      "variants": [
+        {
+          "name": "vacila pa afuera",
+          "translation": "tease outward"
+        }
+      ]
     },
     {
-      "name": "Coquito (coquita/coquito y coquita)",
+      "name": "Coquito",
       "section": "Intermediate II",
       "category": "General",
       "videos": [
@@ -1058,7 +1128,13 @@
           "url": "https://www.youtube.com/watch?v=U1UVg4xq4do&feature=youtu.be"
         }
       ],
-      "translation": "little coconut"
+      "translation": "little coconut",
+      "variants": [
+        {
+          "name": "coquita/coquito y coquita",
+          "translation": "little coconuts (variations)"
+        }
+      ]
     },
     {
       "name": "6 y 9",
