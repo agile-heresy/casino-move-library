@@ -360,7 +360,9 @@ main {
 
 @keyframes card-highlight {
   0% {
-    box-shadow: 0 0 0 3px var(--accent), 0 8px 20px var(--shadow);
+    box-shadow:
+      0 0 0 3px var(--accent),
+      0 8px 20px var(--shadow);
   }
   100% {
     box-shadow: 0 2px 10px var(--shadow);
