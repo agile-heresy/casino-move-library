@@ -143,7 +143,8 @@
       "name": "Clap Between Legs",
       "section": "Beginner",
       "category": "Musicality Calls",
-      "videos": []
+      "videos": [],
+      "translation": "Clap Between Legs"
     },
     {
       "name": "Dame",
@@ -154,14 +155,15 @@
           "url": "https://www.youtube.com/watch?v=CpQLbfl6c8E"
         }
       ],
-      "note": "See videos for dile que no, or this for a full breakdown",
-      "translation": "Give Me"
+      "translation": "Give Me",
+      "note": "See videos for dile que no, or this for a full breakdown"
     },
     {
       "name": "Ping Pong",
       "section": "Beginner",
       "category": "General Moves",
       "videos": [],
+      "translation": "Ping Pong",
       "note": "Jump away from partner, bump hips, jump toward partner, bump hips"
     },
     {
@@ -190,7 +192,8 @@
         {
           "url": "https://www.youtube.com/watch?v=V1AAJ1_CtFw"
         }
-      ]
+      ],
+      "translation": "Enchufla Doble"
     },
     {
       "name": "Enchufla Con Mambo",
@@ -200,7 +203,8 @@
         {
           "url": "https://www.youtube.com/watch?v=gnIxx4Mc6dY"
         }
-      ]
+      ],
+      "translation": "Enchufla Con Mambo"
     },
     {
       "name": "Enchufla Con Clave",
@@ -210,13 +214,15 @@
         {
           "url": "https://www.youtube.com/watch?v=zdAGOogz4PI"
         }
-      ]
+      ],
+      "translation": "Enchufla Con Clave"
     },
     {
       "name": "Enchufla Uno Y Cinco",
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
+      "translation": "Enchufla Uno Y Cinco",
       "note": "Enchufla, stomp on the 1 and 5, dame"
     },
     {
@@ -224,14 +230,15 @@
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
-      "note": "Enchufla, clap (up, back, right leg, left leg), hop three times in circle (right, left), dame",
-      "translation": "New York"
+      "translation": "New York",
+      "note": "Enchufla, clap (up, back, right leg, left leg), hop three times in circle (right, left), dame"
     },
     {
       "name": "Enchufla Manolin",
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
+      "translation": "Enchufla Manolin",
       "note": "Enchufla, body roll (right-leaders, left-followers), body roll other way, dame"
     },
     {
@@ -242,7 +249,8 @@
         {
           "url": "https://www.youtube.com/watch?v=EcT68a0PGIM"
         }
-      ]
+      ],
+      "translation": "Pa'Ti Pa'Mi"
     },
     {
       "name": "Enchufla Quedate",
@@ -252,13 +260,15 @@
         {
           "url": "http://www.youtube.com/watch?v=4-6zVp6sjHA"
         }
-      ]
+      ],
+      "translation": "Enchufla Quedate"
     },
     {
       "name": "Enchufla Palmada",
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
+      "translation": "Enchufla Palmada",
       "variants": [
         {
           "name": "Asyncronizada",
@@ -271,16 +281,16 @@
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
-      "note": "Enchufla, two stomps, two claps",
-      "translation": "Ball, With Two"
+      "translation": "Ball, With Two",
+      "note": "Enchufla, two stomps, two claps"
     },
     {
       "name": "Pelota Con Cuatro",
       "section": "Beginner",
       "category": "Enchufla",
       "videos": [],
-      "note": "Enchufla, four stomps, four claps rotating",
-      "translation": "Ball, With Four"
+      "translation": "Ball, With Four",
+      "note": "Enchufla, four stomps, four claps rotating"
     },
     {
       "name": "Pelota Loca",
@@ -291,8 +301,8 @@
           "url": "https://www.youtube.com/watch?v=uDDKusnZues"
         }
       ],
-      "note": "Horrible quality video, sorry",
-      "translation": "Crazy Ball"
+      "translation": "Crazy Ball",
+      "note": "Horrible quality video, sorry"
     },
     {
       "name": "Kentucky",
@@ -302,13 +312,15 @@
         {
           "url": "http://www.youtube.com/watch?v=3rxMyHVEY4I"
         }
-      ]
+      ],
+      "translation": "Kentucky"
     },
     {
       "name": "Enchufla Con Sabor",
       "section": "Beginner",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "translation": "Enchufla Con Sabor"
     },
     {
       "name": "El Cero",
@@ -354,7 +366,8 @@
         {
           "url": "https://www.youtube.com/watch?v=6N6cAi6W0qc"
         }
-      ]
+      ],
+      "translation": "Adios Con La Hermana"
     },
     {
       "name": "Adios Con La Familia",
@@ -364,7 +377,8 @@
         {
           "url": "https://www.youtube.com/watch?v=qX-UcN0iF-I"
         }
-      ]
+      ],
+      "translation": "Adios Con La Familia"
     },
     {
       "name": "Vacila",
@@ -448,13 +462,15 @@
       "name": "Un Tarro",
       "section": "Beginner",
       "category": "Pa' Arriba",
-      "videos": []
+      "videos": [],
+      "translation": "Un Tarro"
     },
     {
       "name": "Un Tarro De Mentira",
       "section": "Beginner",
       "category": "Pa' Arriba",
-      "videos": []
+      "videos": [],
+      "translation": "Un Tarro De Mentira"
     },
     {
       "name": "Coquito",
@@ -518,7 +534,8 @@
         {
           "url": "http://www.youtube.com/watch?v=V1AAJ1_CtFw"
         }
-      ]
+      ],
+      "translation": "Enchufla Doble"
     },
     {
       "name": "Enchufla Triple",
@@ -546,7 +563,8 @@
         {
           "url": "http://www.youtube.com/watch?v=EcT68a0PGIM"
         }
-      ]
+      ],
+      "translation": "Pa'Ti Pa' Mi"
     },
     {
       "name": "Enchufla Dile Que No",
@@ -556,7 +574,8 @@
         {
           "url": "https://www.youtube.com/watch?v=U1AWEJ2C5vY"
         }
-      ]
+      ],
+      "translation": "Enchufla Dile Que No"
     },
     {
       "name": "Enchufla Quedate",
@@ -566,7 +585,8 @@
         {
           "url": "https://www.youtube.com/watch?v=QJZ--wCWHWo"
         }
-      ]
+      ],
+      "translation": "Enchufla Quedate"
     },
     {
       "name": "Abraza",
@@ -590,13 +610,15 @@
       "name": "Enchufla Con Gira",
       "section": "Intermediate",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "translation": "Enchufla Con Gira"
     },
     {
       "name": "Enchufla Slingshot",
       "section": "Intermediate",
       "category": "Enchufla",
       "videos": [],
+      "translation": "Enchufla Slingshot",
       "variants": [
         {
           "name": "Enroscate",
@@ -619,7 +641,8 @@
         {
           "url": "https://youtu.be/SVrZ4OqNOWI?t=20s"
         }
-      ]
+      ],
+      "translation": "Enchufla Con Mambo"
     },
     {
       "name": "Enchufla Con Clave",
@@ -629,7 +652,8 @@
         {
           "url": "https://www.youtube.com/watch?v=zdAGOogz4PI"
         }
-      ]
+      ],
+      "translation": "Enchufla Con Clave"
     },
     {
       "name": "Pelota Con Dos",
@@ -664,7 +688,8 @@
         {
           "url": "https://www.youtube.com/watch?v=E1ggS2X-HX8"
         }
-      ]
+      ],
+      "translation": "Enchufla Manolin"
     },
     {
       "name": "Nueva York",
@@ -677,19 +702,22 @@
       "name": "Enchufla \"We Will Rock You\"",
       "section": "Intermediate",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "translation": "Enchufla \"We Will Rock You\""
     },
     {
       "name": "Enchufla Palmada",
       "section": "Intermediate",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "translation": "Enchufla Palmada"
     },
     {
       "name": "Enchufla Palmada Y Sincronizada",
       "section": "Intermediate",
       "category": "Enchufla",
-      "videos": []
+      "videos": [],
+      "translation": "Enchufla Palmada Y Sincronizada"
     },
     {
       "name": "Kentucky",
@@ -699,7 +727,8 @@
         {
           "url": "http://www.youtube.com/watch?v=3rxMyHVEY4I"
         }
-      ]
+      ],
+      "translation": "Kentucky"
     },
     {
       "name": "Adios",
@@ -720,7 +749,8 @@
         {
           "url": "https://www.youtube.com/watch?v=1O-1IDGhTlg"
         }
-      ]
+      ],
+      "translation": "Adios Con La Hermana"
     },
     {
       "name": "Adios Con La Familia",
@@ -730,7 +760,8 @@
         {
           "url": "https://www.youtube.com/watch?v=ItCwaFA9288"
         }
-      ]
+      ],
+      "translation": "Adios Con La Familia"
     },
     {
       "name": "Evelin",
@@ -740,7 +771,8 @@
         {
           "url": "https://www.youtube.com/watch?v=FoNg56KRJ3o"
         }
-      ]
+      ],
+      "translation": "Evelin"
     },
     {
       "name": "Vacila",
@@ -761,7 +793,8 @@
         {
           "url": "http://www.youtube.com/watch?v=b1drrJEvhpQ"
         }
-      ]
+      ],
+      "translation": "Vacila Los Dos"
     },
     {
       "name": "Vacila Dame",
@@ -826,8 +859,8 @@
           "url": "http://www.youtube.com/watch?v=8JzKmXlXygQ"
         }
       ],
-      "note": "unisex",
-      "translation": "Kiss"
+      "translation": "Kiss",
+      "note": "unisex"
     },
     {
       "name": "Abanico",
@@ -958,7 +991,8 @@
         {
           "url": "https://www.youtube.com/watch?v=VzeokdIr2vg"
         }
-      ]
+      ],
+      "translation": "Three Way Stop"
     },
     {
       "name": "Atrevido",
@@ -1041,13 +1075,15 @@
       "name": "Lager",
       "section": "Intermediate",
       "category": "Dedo",
-      "videos": []
+      "videos": [],
+      "translation": "Lager"
     },
     {
       "name": "Lager Pa Bajo",
       "section": "Intermediate",
       "category": "Dedo",
-      "videos": []
+      "videos": [],
+      "translation": "Lager Pa Bajo"
     },
     {
       "name": "Tocale La T",
@@ -1079,7 +1115,8 @@
         {
           "url": "https://youtu.be/Uvd2av9Kg3c"
         }
-      ]
+      ],
+      "translation": "Dos Pa'Arriba"
     },
     {
       "name": "Enchufla Con Gira Dame Dos",
@@ -1089,7 +1126,8 @@
         {
           "url": "https://youtu.be/F8jUKZcuUrU"
         }
-      ]
+      ],
+      "translation": "Enchufla Con Gira Dame Dos"
     },
     {
       "name": "Rico Y Suave",
@@ -1210,7 +1248,8 @@
         {
           "url": "https://youtu.be/PKkPpbFSlOk"
         }
-      ]
+      ],
+      "translation": "Pedro Navaja"
     },
     {
       "name": "Patin",
@@ -1231,7 +1270,8 @@
         {
           "url": "https://www.youtube.com/watch?v=YnbJtonZCMM"
         }
-      ]
+      ],
+      "translation": "Patin Pa' Las Mujeres"
     },
     {
       "name": "Patin Doble",
@@ -1259,7 +1299,8 @@
       "name": "Yogurt Con Vuelta",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Yogurt Con Vuelta"
     },
     {
       "name": "Disponible Simple",
@@ -1283,7 +1324,8 @@
       "name": "Evelin 2",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Evelin 2"
     },
     {
       "name": "Hd",
@@ -1293,7 +1335,8 @@
         {
           "url": "https://youtu.be/_ZeA1tJRLTs"
         }
-      ]
+      ],
+      "translation": "Hd"
     },
     {
       "name": "Soraya",
@@ -1303,7 +1346,8 @@
         {
           "url": "https://youtu.be/zeLOdzaMp3Q"
         }
-      ]
+      ],
+      "translation": "Soraya"
     },
     {
       "name": "Pa Linnea",
@@ -1313,7 +1357,8 @@
         {
           "url": "https://youtu.be/eKsELUd5eOI"
         }
-      ]
+      ],
+      "translation": "Pa Linnea"
     },
     {
       "name": "Arcoiris",
@@ -1326,7 +1371,8 @@
       "name": "Emilito",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Emilito"
     },
     {
       "name": "Consorte",
@@ -1414,19 +1460,22 @@
       "name": "Cubanito (El Dos) Con Palmadas",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Cubanito (El Dos) Con Palmadas"
     },
     {
       "name": "Pa'Fuera",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Pa'Fuera"
     },
     {
       "name": "Pa'Dentro",
       "section": "Intermediate II",
       "category": "General",
-      "videos": []
+      "videos": [],
+      "translation": "Pa'Dentro"
     },
     {
       "name": "Se Viro",
@@ -1461,7 +1510,8 @@
         {
           "url": "https://youtu.be/J7fYGPB-2-E"
         }
-      ]
+      ],
+      "translation": "Enchufla Al Reves"
     },
     {
       "name": "Ponle Sabor",
@@ -1511,7 +1561,8 @@
         {
           "url": "https://youtu.be/XDR1e1QIqrY"
         }
-      ]
+      ],
+      "translation": "Kaiulani"
     },
     {
       "name": "Abanico Con Gancha Pa' Fuera",
@@ -1521,7 +1572,8 @@
         {
           "url": "https://youtu.be/mqsKB5Q-9X8"
         }
-      ]
+      ],
+      "translation": "Abanico Con Gancha Pa' Fuera"
     },
     {
       "name": "Puente",

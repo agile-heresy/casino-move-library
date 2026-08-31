@@ -4,7 +4,7 @@
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "Fly Ball",
+    "translation": "Fly Ball (Baseball Term)",
     "variants": [
       {
         "name": "Dos",
@@ -28,7 +28,8 @@
     "name": "Ping Pong",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "Ping Pong"
   },
   {
     "name": "Una Bulla",
@@ -87,13 +88,14 @@
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
-    "translation": "Big Roll"
+    "translation": "Line Drive (Baseball Term)"
   },
   {
     "name": "Echeverría",
     "section": "Individual Couple Moves",
     "category": "Musicality",
     "video": "",
+    "translation": "Echeverría",
     "altNames": [
       {
         "name": "Zapatos",
@@ -112,7 +114,8 @@
     "name": "Right Turn",
     "section": "Individual Couple Moves",
     "category": "Basics",
-    "video": ""
+    "video": "",
+    "translation": "Right Turn"
   },
   {
     "name": "Derecha",
@@ -227,7 +230,8 @@
     "translation": "Stay Put",
     "variants": [
       {
-        "name": "Scorpion"
+        "name": "Scorpion",
+        "translation": "Scorpion"
       }
     ]
   },
@@ -235,7 +239,8 @@
     "name": "Kentucky",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "Kentucky"
   },
   {
     "name": "El Uno + El Dos",
@@ -248,13 +253,15 @@
     "name": "Enchufa Triple",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "Enchufa Triple"
   },
   {
     "name": "Enchufa Complicado",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "Enchufa Complicado"
   },
   {
     "name": "Para Ti Para Mi",
@@ -275,6 +282,7 @@
     "section": "Individual Couple Moves",
     "category": "Enchufla",
     "video": "",
+    "translation": "Festival",
     "variants": [
       {
         "name": "Complicado",
@@ -293,7 +301,8 @@
     "name": "Pa'Dentro Y Pa'Fuera",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Dentro Y Pa'Fuera"
   },
   {
     "name": "Adios",
@@ -321,13 +330,13 @@
     "section": "Individual Couple Moves",
     "category": "Adios",
     "video": "",
+    "translation": "With Her",
     "altNames": [
       {
         "name": "Vecina",
         "translation": "Neighbor"
       }
-    ],
-    "translation": "With Her"
+    ]
   },
   {
     "name": "Doble",
@@ -438,25 +447,29 @@
     "name": "Pa'Fuera",
     "section": "Rueda Structures",
     "category": "Pa'fuera",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Fuera"
   },
   {
     "name": "Exhibela Pa'Fuera",
     "section": "Rueda Structures",
     "category": "Pa'fuera",
-    "video": ""
+    "video": "",
+    "translation": "Exhibela Pa'Fuera"
   },
   {
     "name": "Diet Coke",
     "section": "Rueda Structures",
     "category": "Pa'fuera",
-    "video": ""
+    "video": "",
+    "translation": "Diet Coke"
   },
   {
     "name": "Enchufla Flip",
     "section": "Rueda Structures",
     "category": "Pa'fuera",
     "video": "",
+    "translation": "Enchufla Flip",
     "variants": [
       {
         "name": "Vuelta",
@@ -468,7 +481,8 @@
     "name": "Pa'Medio",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Medio"
   },
   {
     "name": "Agua Del Pozo",
@@ -528,7 +542,8 @@
     "name": "Pa'Rriba",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Rriba"
   },
   {
     "name": "Taro",
@@ -568,7 +583,8 @@
     "name": "Pa'Tras",
     "section": "Rueda Structures",
     "category": "Pa'tras",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Tras"
   },
   {
     "name": "Tarita",
@@ -581,7 +597,8 @@
     "name": "Pa'Centro",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "Pa'Centro"
   },
   {
     "name": "Flor",
@@ -669,7 +686,8 @@
     "name": "Switch",
     "section": "Rueda Structures",
     "category": "Switch",
-    "video": ""
+    "video": "",
+    "translation": "Switch"
   },
   {
     "name": "Trio Caliente",
