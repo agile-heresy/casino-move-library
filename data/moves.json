@@ -67,6 +67,13 @@
     "translation": "You Already Know"
   },
   {
+    "name": "Paseala",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "Pass It"
+  },
+  {
     "name": "Ping Pong",
     "section": "Rueda Moves",
     "category": "Musicality",
@@ -181,6 +188,20 @@
     "translation": "Son (Cuban Music Style)"
   },
   {
+    "name": "Basico",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
+    "video": "",
+    "translation": "Basic"
+  },
+  {
+    "name": "Box Drill",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
+    "video": "",
+    "translation": "Box Drill"
+  },
+  {
     "name": "Abajo",
     "section": "Rueda Moves",
     "category": "Abajo",
@@ -283,6 +304,13 @@
     "category": "Enchufla",
     "video": "",
     "translation": "Kentucky"
+  },
+  {
+    "name": "Kentucky Complicado",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Kentucky Complicado"
   },
   {
     "name": "Cero",
@@ -444,6 +472,13 @@
     "translation": "Tease / Hesitate and Give Me"
   },
   {
+    "name": "Tocala la T",
+    "section": "Rueda Moves",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Touch the T"
+  },
+  {
     "name": "Sombrero",
     "section": "Rueda Moves",
     "category": "Sombrero",
@@ -477,6 +512,27 @@
     "category": "Sombrero",
     "video": "",
     "translation": "Juana The Cuban"
+  },
+  {
+    "name": "Sombrero Complicado",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Complicated Hat"
+  },
+  {
+    "name": "Beso",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Kiss"
+  },
+  {
+    "name": "Beso Unisex",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Unisex Kiss"
   },
   {
     "name": "Setenta",
@@ -814,6 +870,27 @@
     "category": "Pa'centro",
     "video": "",
     "translation": "Zero"
+  },
+  {
+    "name": "Salaneo",
+    "section": "Rueda Structures",
+    "category": "Salaneo",
+    "video": "",
+    "translation": ""
+  },
+  {
+    "name": "Paseo",
+    "section": "Rueda Structures",
+    "category": "Paseo",
+    "video": "",
+    "translation": "Walk"
+  },
+  {
+    "name": "Promenade",
+    "section": "Rueda Structures",
+    "category": "Paseo",
+    "video": "",
+    "translation": "Walk"
   },
   {
     "name": "Llanta",
