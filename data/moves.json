@@ -209,21 +209,21 @@
     "translation": "Plug In / Connect"
   },
   {
-    "name": "Doble",
+    "name": "Enchufla Doble",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "Double"
+    "translation": "Enchufla Double"
   },
   {
-    "name": "Dile Que No",
+    "name": "Enchufala Dile Que No",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "Tell Her No"
+    "translation": "Enchufala Tell Her No"
   },
   {
-    "name": "Quedate",
+    "name": "Enchufala Quedate",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
@@ -250,18 +250,18 @@
     "translation": "The One, The Two"
   },
   {
-    "name": "Enchufa Triple",
+    "name": "Enchufala Triple",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "Enchufa Triple"
+    "translation": "Enchufala Triple"
   },
   {
-    "name": "Enchufa Complicado",
+    "name": "Enchufala Complicado",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "Enchufa Complicado"
+    "translation": "Enchufala Complicado"
   },
   {
     "name": "Para Ti Para Mi",
@@ -278,11 +278,11 @@
     "translation": "Bridge"
   },
   {
-    "name": "Festival",
+    "name": "Festival de Enchufla",
     "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
-    "translation": "Festival",
+    "translation": "Festival of Enchufla",
     "variants": [
       {
         "name": "Complicado",
@@ -305,6 +305,27 @@
     "translation": "Pa'Dentro Y Pa'Fuera"
   },
   {
+    "name": "Manolin",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Manolin (Cuban Singer)"
+  },
+  {
+    "name": "Patine",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Skate"
+  },
+  {
+    "name": "Patineta",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Skate (Feminine)"
+  },
+  {
     "name": "Adios",
     "section": "Rueda Moves",
     "category": "Adios",
@@ -312,34 +333,34 @@
     "translation": "Goodbye"
   },
   {
-    "name": "Con La Hermana",
+    "name": "Adios Con La Hermana",
     "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
-    "translation": "With The Sister"
+    "translation": "Goodbye With The Sister"
   },
   {
-    "name": "Con La Familia",
+    "name": "Adios Con La Familia",
     "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
-    "translation": "With The Family"
+    "translation": "Goodbye With The Family"
   },
   {
-    "name": "Con Ella",
+    "name": "Adios Con Ella",
     "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
-    "translation": "With Her",
+    "translation": "Goodbye With Her",
     "altNames": [
       {
-        "name": "Vecina",
-        "translation": "Neighbor"
+        "name": "Adios Con Vecina",
+        "translation": "Goodbye With Neighbor"
       }
     ]
   },
   {
-    "name": "Doble",
+    "name": "Adios Doble",
     "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
@@ -353,37 +374,72 @@
     "translation": "Tease / Hesitate"
   },
   {
-    "name": "Sombrero",
+    "name": "Vacila Entrada",
     "section": "Rueda Moves",
     "category": "Vacila",
+    "video": "",
+    "translation": ""
+  },
+  {
+    "name": "Sombrero",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
     "video": "",
     "translation": "Hat"
   },
   {
+    "name": "Doble",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Double"
+  },
+  {
+    "name": "Abanico",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Fan"
+  },
+  {
+    "name": "Abanico Con Gauncho",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Fan With Hook"
+  },
+  {
+    "name": "Juana La Cubana",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Juana The Cuban"
+  },
+  {
     "name": "Setenta",
     "section": "Rueda Moves",
-    "category": "Vacila",
+    "category": "Setenta",
     "video": "",
     "translation": "Seventy"
   },
   {
     "name": "Setenta Cubano",
     "section": "Rueda Moves",
-    "category": "Vacila",
+    "category": "Setenta",
     "video": "",
     "translation": "Seventy, Cuban Style"
   },
   {
     "name": "Dedo",
     "section": "Rueda Moves",
-    "category": "Vacila",
+    "category": "Dedo",
     "video": "",
     "translation": "Finger"
   },
   {
     "name": "Montana",
     "section": "Rueda Moves",
-    "category": "Vacila",
+    "category": "Sombrero",
     "video": "",
     "translation": "Mountain"
   },
@@ -400,6 +456,27 @@
     "category": "Siete",
     "video": "",
     "translation": "Seven"
+  },
+  {
+    "name": "Siete Coca-Cola",
+    "section": "Rueda Moves",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Coca-Cola"
+  },
+  {
+    "name": "Siete Moderno",
+    "section": "Rueda Moves",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Modern"
+  },
+  {
+    "name": "Siete Atrevido",
+    "section": "Rueda Moves",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Bold"
   },
   {
     "name": "Guapea",
