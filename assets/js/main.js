@@ -2,6 +2,20 @@ function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
+// Parentheses hold variants of a move; slashes separate alternate names for the same move.
+function parseMoveName(name) {
+  const match = name.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  const base = match ? match[1] : name;
+  const variantText = match ? match[2] : null;
+
+  const [primary, ...altNames] = base.split('/').map((part) => part.trim());
+  const variants = variantText
+    ? variantText.split(',').map((part) => part.trim())
+    : [];
+
+  return { primary, altNames, variants };
+}
+
 function createPanel({ dataUrl, elementSuffix, normalize }) {
   const state = {
     moves: [],
@@ -87,9 +101,37 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const card = document.createElement('article');
     card.className = 'move-card';
 
+    const { primary, altNames, variants } = parseMoveName(move.name);
+
     const title = document.createElement('h4');
-    title.textContent = move.name;
+    title.textContent = primary;
     card.append(title);
+
+    if (altNames.length > 0) {
+      const akaEl = document.createElement('p');
+      akaEl.className = 'move-aka';
+      akaEl.textContent = `aka ${altNames.join(', ')}`;
+      card.append(akaEl);
+    }
+
+    if (variants.length > 0) {
+      const variantsEl = document.createElement('div');
+      variantsEl.className = 'move-variants';
+
+      const label = document.createElement('span');
+      label.className = 'variants-label';
+      label.textContent = 'Variants';
+      variantsEl.append(label);
+
+      for (const variant of variants) {
+        const chip = document.createElement('span');
+        chip.className = 'variant-chip';
+        chip.textContent = variant;
+        variantsEl.append(chip);
+      }
+
+      card.append(variantsEl);
+    }
 
     if (move.translation) {
       const gloss = document.createElement('p');
@@ -116,14 +158,14 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     }
 
     const videos = move.videos ?? [];
+    const linkWrap = document.createElement('div');
+    linkWrap.className = 'video-links';
     if (videos.length === 0) {
       const link = document.createElement('span');
       link.className = 'video-link video-link--missing';
       link.textContent = 'No video yet';
-      card.append(link);
+      linkWrap.append(link);
     } else {
-      const linkWrap = document.createElement('div');
-      linkWrap.className = 'video-links';
       for (const video of videos) {
         const link = document.createElement('a');
         link.className = 'video-link';
@@ -133,8 +175,8 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
         link.textContent = video.label ? `${video.label} ↗` : 'Watch video ↗';
         linkWrap.append(link);
       }
-      card.append(linkWrap);
     }
+    card.append(linkWrap);
 
     return card;
   }

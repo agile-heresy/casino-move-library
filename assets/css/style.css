@@ -95,9 +95,8 @@ body {
   padding: 0.9rem 1.2rem;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
   border-radius: var(--radius);
-  text-align: left;
+  text-align: center;
   box-shadow: 0 2px 10px var(--shadow);
 }
 
@@ -264,8 +263,8 @@ main {
 
 .move-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
@@ -277,24 +276,12 @@ main {
   padding: 1.1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.45rem;
   box-shadow: 0 2px 10px var(--shadow);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
     border-color 0.15s ease;
-  animation: card-rise 0.35s ease both;
-}
-
-@keyframes card-rise {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .move-card:hover {
@@ -308,6 +295,37 @@ main {
   font-family: var(--font-display);
   font-size: 1.05rem;
   color: var(--text);
+}
+
+.move-aka {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+.move-variants {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.variants-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.variant-chip {
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.72rem;
 }
 
 .move-note {
@@ -350,6 +368,8 @@ main {
   flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
 }
 
 .video-link {
