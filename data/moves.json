@@ -25,6 +25,41 @@
     ]
   },
   {
+    "name": "Dame",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "Give me"
+  },
+  {
+    "name": "Dame Dos",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "Give me Two"
+  },
+  {
+    "name": "La De Arriba",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "The One Above"
+  },
+  {
+    "name": "Directo",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "Straight / Direct"
+  },
+  {
+    "name": "Directo Pasando",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "Straight / Direct Passing"
+  },
+  {
     "name": "Ping Pong",
     "section": "Rueda Moves",
     "category": "Musicality",
@@ -379,6 +414,13 @@
     "category": "Vacila",
     "video": "",
     "translation": ""
+  },
+  {
+    "name": "Vacila y Dame",
+    "section": "Rueda Moves",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tease / Hesitate and Give Me"
   },
   {
     "name": "Sombrero",
