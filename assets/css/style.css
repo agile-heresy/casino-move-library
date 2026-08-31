@@ -89,6 +89,15 @@ body {
   font-size: 0.95rem;
 }
 
+.disclaimer {
+  margin: 0.5rem auto 0;
+  max-width: 520px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.85;
+}
+
 .about-callout {
   margin: 1rem auto 0;
   max-width: 640px;
@@ -115,7 +124,8 @@ body {
 
 .about-callout summary::after {
   content: ' ▾';
-  font-size: 0.7rem;
+  font-size: 1.1rem;
+  vertical-align: middle;
 }
 
 .about-callout[open] summary::after {
