@@ -1,0 +1,1061 @@
+{
+  "sectionNotes": {
+    "Intermediate II": "Admission to Intermediate II lessons was historically restricted — attendees who hadn't been to lessons were asked to observe rather than participate.",
+    "Intermediate II Playlist": "https://youtu.be/Uvd2av9Kg3c?list=PLNpuxxvfd1d5RsplBK-9a-v5971KzTNbQ"
+  },
+  "moves": [
+    {
+      "name": "Guapea",
+      "section": "Beginner",
+      "category": "Basic Steps",
+      "videos": [
+        {
+          "label": "Leader's video",
+          "url": "http://www.youtube.com/watch?v=JilO2cx1hhk"
+        },
+        {
+          "label": "Follower's video",
+          "url": "http://www.youtube.com/watch?v=gLRZ-eF9kc8"
+        }
+      ]
+    },
+    {
+      "name": "Enchufla",
+      "section": "Beginner",
+      "category": "Basic Steps",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=RALO3MgAoxU" }]
+    },
+    {
+      "name": "Dile que no",
+      "section": "Beginner",
+      "category": "Basic Steps",
+      "videos": [
+        {
+          "label": "Leader's video",
+          "url": "http://www.youtube.com/watch?v=xwvgJ8RueNY"
+        },
+        {
+          "label": "Follower's video",
+          "url": "http://www.youtube.com/watch?v=eNChhZuj1CA"
+        }
+      ]
+    },
+
+    {
+      "name": "Matala (con dos)",
+      "section": "Beginner",
+      "category": "Musicality Calls",
+      "videos": [{ "url": "http://youtu.be/SFbpnoPTxZQ?t=10s" }]
+    },
+    {
+      "name": "Una bulla (suave, larga, sexy, Australia, doble, Espanol)",
+      "section": "Beginner",
+      "category": "Musicality Calls",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=57nOu7lSy40" }]
+    },
+    {
+      "name": "Fly (doble, triple, higher)",
+      "section": "Beginner",
+      "category": "Musicality Calls",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=sMxJ18AARLk" }]
+    },
+    {
+      "name": "Rolatazo (higher)",
+      "section": "Beginner",
+      "category": "Musicality Calls",
+      "videos": []
+    },
+    {
+      "name": "Clap between legs",
+      "section": "Beginner",
+      "category": "Musicality Calls",
+      "videos": []
+    },
+
+    {
+      "name": "Dame",
+      "section": "Beginner",
+      "category": "General Moves",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=CpQLbfl6c8E" }],
+      "note": "See videos for dile que no, or this for a full breakdown"
+    },
+    {
+      "name": "Ping pong",
+      "section": "Beginner",
+      "category": "General Moves",
+      "videos": [],
+      "note": "Jump away from partner, bump hips, jump toward partner, bump hips"
+    },
+    {
+      "name": "La de arriba",
+      "section": "Beginner",
+      "category": "General Moves",
+      "videos": []
+    },
+
+    {
+      "name": "Enchufla",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=0JOKTHm7pCQ" }]
+    },
+    {
+      "name": "Enchufla doble",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=V1AAJ1_CtFw" }]
+    },
+    {
+      "name": "Enchufla con mambo",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=gnIxx4Mc6dY" }]
+    },
+    {
+      "name": "Enchufla con clave",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=zdAGOogz4PI" }]
+    },
+    {
+      "name": "Enchufla uno y cinco",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [],
+      "note": "Enchufla, stomp on the 1 and 5, dame"
+    },
+    {
+      "name": "Nueva York",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [],
+      "note": "Enchufla, clap (up, back, right leg, left leg), hop three times in circle (right, left), dame"
+    },
+    {
+      "name": "Enchufla manolin",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [],
+      "note": "Enchufla, body roll (right-leaders, left-followers), body roll other way, dame"
+    },
+    {
+      "name": "Pa'ti pa'mi",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=EcT68a0PGIM" }]
+    },
+    {
+      "name": "Enchufla quedate",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=4-6zVp6sjHA" }]
+    },
+    {
+      "name": "Enchufla palmada (asyncronizada)",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Pelota con dos",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [],
+      "note": "Enchufla, two stomps, two claps"
+    },
+    {
+      "name": "Pelota con cuatro",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [],
+      "note": "Enchufla, four stomps, four claps rotating"
+    },
+    {
+      "name": "Pelota loca",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=uDDKusnZues" }],
+      "note": "Horrible quality video, sorry"
+    },
+    {
+      "name": "Kentucky",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=3rxMyHVEY4I" }]
+    },
+    {
+      "name": "Enchufla con sabor",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "El Cero",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=FEhJHMT1Ehg" }]
+    },
+    {
+      "name": "El Uno",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla complicado",
+      "section": "Beginner",
+      "category": "Enchufla",
+      "videos": []
+    },
+
+    {
+      "name": "Adios",
+      "section": "Beginner",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=p29w1PoiKOE" }]
+    },
+    {
+      "name": "Adios con la hermana",
+      "section": "Beginner",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=6N6cAi6W0qc" }]
+    },
+    {
+      "name": "Adios con la familia",
+      "section": "Beginner",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=qX-UcN0iF-I" }]
+    },
+
+    {
+      "name": "Vacila",
+      "section": "Beginner",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Vacilense los dos",
+      "section": "Beginner",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Vacila dame",
+      "section": "Beginner",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Rico y suave",
+      "section": "Beginner",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Dile que si",
+      "section": "Beginner",
+      "category": "Vacila",
+      "videos": []
+    },
+
+    {
+      "name": "Sombrero",
+      "section": "Beginner",
+      "category": "Sombrero",
+      "videos": []
+    },
+    {
+      "name": "Sombrero mambo",
+      "section": "Beginner",
+      "category": "Sombrero",
+      "videos": []
+    },
+    {
+      "name": "Sombrero santo",
+      "section": "Beginner",
+      "category": "Sombrero",
+      "videos": []
+    },
+    {
+      "name": "Balsero",
+      "section": "Beginner",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=OSA_k8AGJf8" }]
+    },
+    {
+      "name": "Beso",
+      "section": "Beginner",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=Y4gY911l9pg" }]
+    },
+
+    {
+      "name": "Un tarro",
+      "section": "Beginner",
+      "category": "Pa' Arriba",
+      "videos": []
+    },
+    {
+      "name": "Un tarro de mentira",
+      "section": "Beginner",
+      "category": "Pa' Arriba",
+      "videos": []
+    },
+    {
+      "name": "Coquito",
+      "section": "Beginner",
+      "category": "Pa' Arriba",
+      "videos": []
+    },
+    {
+      "name": "Coquita",
+      "section": "Beginner",
+      "category": "Pa' Arriba",
+      "videos": []
+    },
+    {
+      "name": "Cambia parejas",
+      "section": "Beginner",
+      "category": "Pa' Arriba",
+      "videos": []
+    },
+
+    {
+      "name": "Coca cola",
+      "section": "Intermediate",
+      "category": "General",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=1CIDrXsqIQQ" }]
+    },
+    {
+      "name": "Dame con los manos",
+      "section": "Intermediate",
+      "category": "General",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=dN5-ItEzeVY" }]
+    },
+
+    {
+      "name": "Enchufla",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=RALO3MgAoxU" }]
+    },
+    {
+      "name": "Enchufla doble",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=V1AAJ1_CtFw" }]
+    },
+    {
+      "name": "Enchufla triple",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla complicado",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=CVs-VcV6FUc" }]
+    },
+    {
+      "name": "Pa'ti pa' mi",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=EcT68a0PGIM" }]
+    },
+    {
+      "name": "Enchufla dile que no",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=U1AWEJ2C5vY" }]
+    },
+    {
+      "name": "Enchufla quedate",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=QJZ--wCWHWo" }]
+    },
+    {
+      "name": "Abraza",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "El cero",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=FEhJHMT1Ehg" }]
+    },
+    {
+      "name": "Enchufla con gira",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla slingshot (enroscate)",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "El anillo",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla con mambo",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://youtu.be/SVrZ4OqNOWI?t=20s" }]
+    },
+    {
+      "name": "Enchufla con clave",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=zdAGOogz4PI" }]
+    },
+    {
+      "name": "Pelota con dos",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Pelota con cuatro",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Pelota loca",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=R1k_0kVGkV4" }]
+    },
+    {
+      "name": "Enchufla manolin",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=E1ggS2X-HX8" }]
+    },
+    {
+      "name": "Nueva York",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla \"We will rock you\"",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla palmada",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Enchufla palmada y sincronizada",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": []
+    },
+    {
+      "name": "Kentucky",
+      "section": "Intermediate",
+      "category": "Enchufla",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=3rxMyHVEY4I" }]
+    },
+
+    {
+      "name": "Adios",
+      "section": "Intermediate",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=p29w1PoiKOE" }]
+    },
+    {
+      "name": "Adios con la hermana",
+      "section": "Intermediate",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=1O-1IDGhTlg" }]
+    },
+    {
+      "name": "Adios con la familia",
+      "section": "Intermediate",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=ItCwaFA9288" }]
+    },
+    {
+      "name": "Evelin",
+      "section": "Intermediate",
+      "category": "Adios",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=FoNg56KRJ3o" }]
+    },
+
+    {
+      "name": "Vacila",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=YwUDawEP6bE" }]
+    },
+    {
+      "name": "Vacila los dos",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=b1drrJEvhpQ" }]
+    },
+    {
+      "name": "Vacila dame",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Vacila dame gira",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Vacila de mentira",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": []
+    },
+    {
+      "name": "Vacila entrada",
+      "section": "Intermediate",
+      "category": "Vacila",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=CN8lW3e1M50" }]
+    },
+
+    {
+      "name": "Sombrero",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=0cDABHXA74s" }]
+    },
+    {
+      "name": "Balsero",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=1SJmCHgl4as" }]
+    },
+    {
+      "name": "Beso",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=8JzKmXlXygQ" }],
+      "note": "unisex"
+    },
+    {
+      "name": "Abanico",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [
+        { "url": "http://www.youtube.com/watch?v=monVrQhH_xM" },
+        {
+          "label": "con gancho",
+          "url": "https://www.youtube.com/watch?v=QPFAgjmWJtw"
+        }
+      ]
+    },
+    {
+      "name": "Sombrero pasaela",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": []
+    },
+    {
+      "name": "Sombrero de mani",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=UHjm9lb6KyE" }]
+    },
+    {
+      "name": "Ochentai ocho",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=nJ31IYLvkhk" }]
+    },
+    {
+      "name": "Sombrero doble",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=15xrDNKjU98" }]
+    },
+    {
+      "name": "Sombrero de abajo",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=6vgzxre5j4c" }]
+    },
+    {
+      "name": "Juana la cubana",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=eR7lrNEnLb8" }]
+    },
+    {
+      "name": "Sombrero complicado",
+      "section": "Intermediate",
+      "category": "Sombrero",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=UHjm9lb6KyE" }]
+    },
+
+    {
+      "name": "Siete",
+      "section": "Intermediate",
+      "category": "Siete",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=Zw3mhyXeHc4" }]
+    },
+    {
+      "name": "Siete coca-cola",
+      "section": "Intermediate",
+      "category": "Siete",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=6NrZRlDlC8o" }]
+    },
+    {
+      "name": "Siete moderno",
+      "section": "Intermediate",
+      "category": "Siete",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=jqEdlhoMOtc" }]
+    },
+    {
+      "name": "Three way stop",
+      "section": "Intermediate",
+      "category": "Siete",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=VzeokdIr2vg" }]
+    },
+    {
+      "name": "Atrevido",
+      "section": "Intermediate",
+      "category": "Siete",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=EfdXzIGZJgc" }]
+    },
+
+    {
+      "name": "Setenta",
+      "section": "Intermediate",
+      "category": "Setenta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=8joYIuzRT5o" }]
+    },
+    {
+      "name": "Setenta complicado",
+      "section": "Intermediate",
+      "category": "Setenta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=92emgSO3ct8" }]
+    },
+
+    {
+      "name": "Dedo",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=_o6602liJII" }]
+    },
+    {
+      "name": "Montana",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=h14LYhjb1Jk" }]
+    },
+    {
+      "name": "Dedo guarapo y botala",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "http://www.youtube.com/watch?v=iNQxkWZ4q5M" }]
+    },
+    {
+      "name": "Abrazala",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=oPfSpp6K3DM" }]
+    },
+    {
+      "name": "Lager",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": []
+    },
+    {
+      "name": "Lager pa bajo",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": []
+    },
+    {
+      "name": "Tocale la T",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=bE04X_UExQc" }]
+    },
+    {
+      "name": "Suave",
+      "section": "Intermediate",
+      "category": "Dedo",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=NUrfE1EX79g" }]
+    },
+
+    {
+      "name": "Dos pa'arriba",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/Uvd2av9Kg3c" }]
+    },
+    {
+      "name": "Enchufla con gira dame dos",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/F8jUKZcuUrU" }]
+    },
+    {
+      "name": "Rico y suave",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/iU8lOEl30aM" }]
+    },
+    {
+      "name": "La de arriba (vacila pa afuera)",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/bC-8qSxIniQ" }]
+    },
+    {
+      "name": "Coquito (coquita/coquito y coquita)",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=U1UVg4xq4do&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "name": "6 y 9",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/V30537a40hE" }]
+    },
+    {
+      "name": "Vacila entrada",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [
+        { "url": "https://www.youtube.com/watch?v=Hn5XT9Y3_IA#t=2m24s" }
+      ]
+    },
+    {
+      "name": "Rico pilon",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/fyjAT6MREvk" }]
+    },
+    {
+      "name": "Paso Cruzado",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/XSKNjq3_mfo" }]
+    },
+    {
+      "name": "Tumba Francesa",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/XSKNjq3_mfo" }]
+    },
+    {
+      "name": "Por Dentro y Por Afuera",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/8gjyOYZkS5k" }]
+    },
+    {
+      "name": "Pedro Navaja",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/PKkPpbFSlOk" }]
+    },
+    {
+      "name": "Patin",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=nMfa3voeIFk" }]
+    },
+    {
+      "name": "Patin pa' las mujeres",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=YnbJtonZCMM" }]
+    },
+    {
+      "name": "Patin doble",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/6A9dtctH1-Q" }]
+    },
+    {
+      "name": "Gozalo",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/eQkkQslH7Hc" }]
+    },
+    {
+      "name": "Yogurt con vuelta",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Disponible simple",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/BTonSQYKQ-4" }]
+    },
+    {
+      "name": "Disponible completo",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Evelin 2",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "HD",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/_ZeA1tJRLTs" }]
+    },
+    {
+      "name": "Soraya",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/zeLOdzaMp3Q" }]
+    },
+    {
+      "name": "Pa Linnea",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/eKsELUd5eOI" }]
+    },
+    {
+      "name": "Arcoiris",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Emilito",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Consorte",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Sententa ocho",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Sententa complicado caminando",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Sententa ocho con ocho",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Dame la mano",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/6pCPcBal0DU" }]
+    },
+    {
+      "name": "Mezcla santiaguera",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Enchufla elegua",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Sombrero por adentro y por afuera",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/TnttcuLnZjs" }]
+    },
+    {
+      "name": "Sombrero santo",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/caIPWzLwBJA" }]
+    },
+    {
+      "name": "Fly perdida",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Cubanito (el dos) con palmadas",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Pa'fuera",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Pa'dentro",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Se viro",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Cambia parejas",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Sententa sentado",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/kUQVUjF1IC4" }]
+    },
+    {
+      "name": "Enchufla al reves",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/J7fYGPB-2-E" }]
+    },
+    {
+      "name": "Ponle sabor",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/DUoVLMpx0NE" }]
+    },
+    {
+      "name": "Izquierda con izquierda",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": []
+    },
+    {
+      "name": "Paseo complicate",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/QG1d1cEU4MI" }]
+    },
+    {
+      "name": "Reflejo",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/6buvzYG6Sjk" }]
+    },
+    {
+      "name": "Kaiulani",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/XDR1e1QIqrY" }]
+    },
+    {
+      "name": "Abanico con gancha pa' fuera",
+      "section": "Intermediate II",
+      "category": "General",
+      "videos": [{ "url": "https://youtu.be/mqsKB5Q-9X8" }]
+    },
+
+    {
+      "name": "Puente",
+      "section": "Intermediate II",
+      "category": "Rueda Llanta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=9SqmcnHxwhQ" }]
+    },
+    {
+      "name": "Jardin",
+      "section": "Intermediate II",
+      "category": "Rueda Llanta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=Sfx1CqGz_UI" }]
+    },
+    {
+      "name": "Jardin doble",
+      "section": "Intermediate II",
+      "category": "Rueda Llanta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=oQnt0_p6JQc" }]
+    },
+    {
+      "name": "Jardin triple",
+      "section": "Intermediate II",
+      "category": "Rueda Llanta",
+      "videos": [{ "url": "https://www.youtube.com/watch?v=WyQAwAY3OV4" }]
+    },
+    {
+      "name": "Jardin amarrado",
+      "section": "Intermediate II",
+      "category": "Rueda Llanta",
+      "videos": []
+    },
+
+    {
+      "name": "Llanta",
+      "section": "Structures",
+      "category": "Structures",
+      "videos": []
+    },
+    {
+      "name": "Cruzado",
+      "section": "Structures",
+      "category": "Structures",
+      "videos": []
+    },
+    {
+      "name": "Contriario",
+      "section": "Structures",
+      "category": "Structures",
+      "videos": []
+    },
+    {
+      "name": "Trio Caliente",
+      "section": "Structures",
+      "category": "Structures",
+      "videos": [{ "url": "http://youtu.be/85JBgyIUgJI" }]
+    },
+    {
+      "name": "Rueda Torno",
+      "section": "Structures",
+      "category": "Structures",
+      "videos": [{ "url": "http://youtu.be/e7-oLSJsvGI" }]
+    }
+  ]
+}

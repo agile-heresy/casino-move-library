@@ -21,46 +21,125 @@
       </p>
     </header>
 
+    <nav
+      class="tab-bar"
+      aria-label="Move library versions"
+    >
+      <button
+        type="button"
+        class="tab-button is-active"
+        data-tab="current"
+        aria-selected="true"
+      >
+        Current Library
+      </button>
+      <button
+        type="button"
+        class="tab-button"
+        data-tab="archive"
+        aria-selected="false"
+      >
+        Tumblr Archive
+      </button>
+    </nav>
+
     <main>
-      <section class="controls">
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Search moves..."
-          aria-label="Search moves"
-        />
-        <select
-          id="section-filter"
-          aria-label="Filter by section"
+      <section
+        id="panel-current"
+        class="tab-panel is-active"
+        data-panel="current"
+      >
+        <div class="controls">
+          <input
+            type="search"
+            id="search-input-current"
+            placeholder="Search moves..."
+            aria-label="Search moves"
+          />
+          <select
+            id="section-filter-current"
+            aria-label="Filter by section"
+          >
+            <option value="all">All Sections</option>
+          </select>
+          <select
+            id="category-filter-current"
+            aria-label="Filter by family"
+          >
+            <option value="all">All Families</option>
+          </select>
+        </div>
+
+        <section
+          id="move-grid-current"
+          class="move-grid"
+          aria-live="polite"
+        ></section>
+        <p
+          id="empty-state-current"
+          class="empty-state"
+          hidden
         >
-          <option value="all">All Sections</option>
-        </select>
-        <select
-          id="category-filter"
-          aria-label="Filter by family"
-        >
-          <option value="all">All Families</option>
-        </select>
+          No moves match your filters.
+        </p>
       </section>
 
       <section
-        id="move-grid"
-        class="move-grid"
-        aria-live="polite"
-      ></section>
-      <p
-        id="empty-state"
-        class="empty-state"
+        id="panel-archive"
+        class="tab-panel"
+        data-panel="archive"
         hidden
       >
-        No moves match your filters.
-      </p>
+        <p class="archive-intro">
+          An older list of moves and video links exported from the
+          <a
+            href="https://azucar-gmu.tumblr.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Azucar GMU Tumblr</a
+          >.
+        </p>
+        <div class="controls">
+          <input
+            type="search"
+            id="search-input-archive"
+            placeholder="Search moves..."
+            aria-label="Search moves"
+          />
+          <select
+            id="section-filter-archive"
+            aria-label="Filter by level"
+          >
+            <option value="all">All Levels</option>
+          </select>
+          <select
+            id="category-filter-archive"
+            aria-label="Filter by family"
+          >
+            <option value="all">All Families</option>
+          </select>
+        </div>
+
+        <section
+          id="move-grid-archive"
+          class="move-grid"
+          aria-live="polite"
+        ></section>
+        <p
+          id="empty-state-archive"
+          class="empty-state"
+          hidden
+        >
+          No moves match your filters.
+        </p>
+      </section>
     </main>
 
     <footer class="site-footer">
       <p>
-        Moves are listed in <a href="data/moves.json">data/moves.json</a> — add
-        your own by editing that file.
+        Moves are listed in <a href="data/moves.json">data/moves.json</a> and
+        <a href="data/archive.json">data/archive.json</a> — add your own by
+        editing those files.
       </p>
     </footer>
 

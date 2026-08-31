@@ -1,146 +1,229 @@
-const DATA_URL = 'data/moves.json';
+function createPanel({ dataUrl, elementSuffix, normalize }) {
+  const state = {
+    moves: [],
+    sectionNotes: {},
+    search: '',
+    section: 'all',
+    category: 'all',
+  };
 
-const state = {
-  moves: [],
-  search: '',
-  section: 'all',
-  category: 'all',
-};
+  const grid = document.getElementById(`move-grid-${elementSuffix}`);
+  const emptyState = document.getElementById(`empty-state-${elementSuffix}`);
+  const searchInput = document.getElementById(`search-input-${elementSuffix}`);
+  const sectionFilter = document.getElementById(
+    `section-filter-${elementSuffix}`,
+  );
+  const categoryFilter = document.getElementById(
+    `category-filter-${elementSuffix}`,
+  );
 
-const grid = document.getElementById('move-grid');
-const emptyState = document.getElementById('empty-state');
-const searchInput = document.getElementById('search-input');
-const sectionFilter = document.getElementById('section-filter');
-const categoryFilter = document.getElementById('category-filter');
+  function populateFilterOptions(moves) {
+    const sections = [...new Set(moves.map((m) => m.section))].sort();
+    const categories = [...new Set(moves.map((m) => m.category))].sort();
 
-function populateFilterOptions(moves) {
-  const sections = [...new Set(moves.map((m) => m.section))].sort();
-  const categories = [...new Set(moves.map((m) => m.category))].sort();
+    for (const section of sections) {
+      const option = document.createElement('option');
+      option.value = section;
+      option.textContent = section;
+      sectionFilter.appendChild(option);
+    }
 
-  for (const section of sections) {
-    const option = document.createElement('option');
-    option.value = section;
-    option.textContent = section;
-    sectionFilter.appendChild(option);
+    for (const category of categories) {
+      const option = document.createElement('option');
+      option.value = category;
+      option.textContent = category;
+      categoryFilter.appendChild(option);
+    }
   }
 
-  for (const category of categories) {
-    const option = document.createElement('option');
-    option.value = category;
-    option.textContent = category;
-    categoryFilter.appendChild(option);
-  }
-}
+  function groupBySectionThenCategory(moves) {
+    const sections = new Map();
 
-function render() {
-  const query = state.search.trim().toLowerCase();
-
-  const filtered = state.moves.filter((move) => {
-    const matchesSearch = !query || move.name.toLowerCase().includes(query);
-    const matchesSection =
-      state.section === 'all' || move.section === state.section;
-    const matchesCategory =
-      state.category === 'all' || move.category === state.category;
-    return matchesSearch && matchesSection && matchesCategory;
-  });
-
-  grid.innerHTML = '';
-  emptyState.hidden = filtered.length !== 0;
-
-  for (const [sectionName, categories] of groupBySectionThenCategory(
-    filtered,
-  )) {
-    grid.appendChild(createSectionHeading(sectionName));
-
-    for (const [categoryName, moves] of categories) {
-      grid.appendChild(createCategoryHeading(categoryName));
-
-      const cardRow = document.createElement('div');
-      cardRow.className = 'move-row';
-      for (const move of moves) {
-        cardRow.appendChild(createMoveCard(move));
+    for (const move of moves) {
+      if (!sections.has(move.section)) {
+        sections.set(move.section, new Map());
       }
-      grid.appendChild(cardRow);
+      const categories = sections.get(move.section);
+      if (!categories.has(move.category)) {
+        categories.set(move.category, []);
+      }
+      categories.get(move.category).push(move);
     }
+
+    return sections;
+  }
+
+  function createSectionHeading(name) {
+    const fragment = document.createDocumentFragment();
+
+    const heading = document.createElement('h2');
+    heading.className = 'section-heading';
+    heading.textContent = name;
+    fragment.append(heading);
+
+    const note = state.sectionNotes[name];
+    if (note) {
+      const noteEl = document.createElement('p');
+      noteEl.className = 'section-note';
+      noteEl.textContent = note;
+      fragment.append(noteEl);
+    }
+
+    return fragment;
+  }
+
+  function createCategoryHeading(name) {
+    const heading = document.createElement('h3');
+    heading.className = 'category-heading';
+    heading.textContent = name;
+    return heading;
+  }
+
+  function createMoveCard(move) {
+    const card = document.createElement('article');
+    card.className = 'move-card';
+
+    const title = document.createElement('h4');
+    title.textContent = move.name;
+    card.append(title);
+
+    if (move.note) {
+      const note = document.createElement('p');
+      note.className = 'move-note';
+      note.textContent = move.note;
+      card.append(note);
+    }
+
+    const videos = move.videos ?? [];
+    if (videos.length === 0) {
+      const link = document.createElement('span');
+      link.className = 'video-link video-link--missing';
+      link.textContent = 'No video yet';
+      card.append(link);
+    } else {
+      const linkWrap = document.createElement('div');
+      linkWrap.className = 'video-links';
+      for (const video of videos) {
+        const link = document.createElement('a');
+        link.className = 'video-link';
+        link.href = video.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = video.label ? `${video.label} ↗` : 'Watch video ↗';
+        linkWrap.append(link);
+      }
+      card.append(linkWrap);
+    }
+
+    return card;
+  }
+
+  function render() {
+    const query = state.search.trim().toLowerCase();
+
+    const filtered = state.moves.filter((move) => {
+      const matchesSearch = !query || move.name.toLowerCase().includes(query);
+      const matchesSection =
+        state.section === 'all' || move.section === state.section;
+      const matchesCategory =
+        state.category === 'all' || move.category === state.category;
+      return matchesSearch && matchesSection && matchesCategory;
+    });
+
+    grid.innerHTML = '';
+    emptyState.hidden = filtered.length !== 0;
+
+    for (const [sectionName, categories] of groupBySectionThenCategory(
+      filtered,
+    )) {
+      grid.appendChild(createSectionHeading(sectionName));
+
+      for (const [categoryName, moves] of categories) {
+        grid.appendChild(createCategoryHeading(categoryName));
+
+        const cardRow = document.createElement('div');
+        cardRow.className = 'move-row';
+        for (const move of moves) {
+          cardRow.appendChild(createMoveCard(move));
+        }
+        grid.appendChild(cardRow);
+      }
+    }
+  }
+
+  async function init() {
+    const response = await fetch(dataUrl);
+    const data = await response.json();
+    const { moves, sectionNotes } = normalize(data);
+
+    state.moves = moves;
+    state.sectionNotes = sectionNotes;
+
+    populateFilterOptions(state.moves);
+    render();
+
+    searchInput.addEventListener('input', (e) => {
+      state.search = e.target.value;
+      render();
+    });
+
+    sectionFilter.addEventListener('change', (e) => {
+      state.section = e.target.value;
+      render();
+    });
+
+    categoryFilter.addEventListener('change', (e) => {
+      state.category = e.target.value;
+      render();
+    });
+  }
+
+  init();
+}
+
+function initTabs() {
+  const buttons = document.querySelectorAll('.tab-button');
+  const panels = document.querySelectorAll('.tab-panel');
+
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      const target = button.dataset.tab;
+
+      for (const btn of buttons) {
+        btn.classList.toggle('is-active', btn === button);
+        btn.setAttribute('aria-selected', String(btn === button));
+      }
+
+      for (const panel of panels) {
+        const isActive = panel.dataset.panel === target;
+        panel.classList.toggle('is-active', isActive);
+        panel.hidden = !isActive;
+      }
+    });
   }
 }
 
-function groupBySectionThenCategory(moves) {
-  const sections = new Map();
+// current library: flat array of moves with a single `video` string
+createPanel({
+  dataUrl: 'data/moves.json',
+  elementSuffix: 'current',
+  normalize: (data) => ({
+    moves: data.map((move) => ({
+      ...move,
+      videos: move.video ? [{ url: move.video }] : [],
+    })),
+    sectionNotes: {},
+  }),
+});
 
-  for (const move of moves) {
-    if (!sections.has(move.section)) {
-      sections.set(move.section, new Map());
-    }
-    const categories = sections.get(move.section);
-    if (!categories.has(move.category)) {
-      categories.set(move.category, []);
-    }
-    categories.get(move.category).push(move);
-  }
+// tumblr archive: { sectionNotes, moves } where moves already carry a videos array
+createPanel({
+  dataUrl: 'data/archive.json',
+  elementSuffix: 'archive',
+  normalize: (data) => ({
+    moves: data.moves,
+    sectionNotes: data.sectionNotes ?? {},
+  }),
+});
 
-  return sections;
-}
-
-function createSectionHeading(name) {
-  const heading = document.createElement('h2');
-  heading.className = 'section-heading';
-  heading.textContent = name;
-  return heading;
-}
-
-function createCategoryHeading(name) {
-  const heading = document.createElement('h3');
-  heading.className = 'category-heading';
-  heading.textContent = name;
-  return heading;
-}
-
-function createMoveCard(move) {
-  const card = document.createElement('article');
-  card.className = 'move-card';
-
-  const title = document.createElement('h4');
-  title.textContent = move.name;
-
-  const link = document.createElement('a');
-  link.className = 'video-link';
-  if (move.video) {
-    link.href = move.video;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = 'Watch video ↗';
-  } else {
-    link.classList.add('video-link--missing');
-    link.setAttribute('aria-disabled', 'true');
-    link.textContent = 'No video yet';
-  }
-
-  card.append(title, link);
-  return card;
-}
-
-async function init() {
-  const response = await fetch(DATA_URL);
-  state.moves = await response.json();
-
-  populateFilterOptions(state.moves);
-  render();
-
-  searchInput.addEventListener('input', (e) => {
-    state.search = e.target.value;
-    render();
-  });
-
-  sectionFilter.addEventListener('change', (e) => {
-    state.section = e.target.value;
-    render();
-  });
-
-  categoryFilter.addEventListener('change', (e) => {
-    state.category = e.target.value;
-    render();
-  });
-}
-
-init();
+initTabs();
