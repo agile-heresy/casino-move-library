@@ -1,7 +1,7 @@
 [
   {
     "name": "Fly",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "Fly Ball (Baseball Term)",
@@ -26,14 +26,14 @@
   },
   {
     "name": "Ping Pong",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "Ping Pong"
   },
   {
     "name": "Una Bulla",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "A Ruckus / Commotion",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Matala",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "Hit It / Play It, The Cockroach",
@@ -85,14 +85,14 @@
   },
   {
     "name": "Rollatazo",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "Line Drive (Baseball Term)"
   },
   {
     "name": "Echeverría",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Musicality",
     "video": "",
     "translation": "Echeverría",
@@ -105,126 +105,126 @@
   },
   {
     "name": "Basico",
-    "section": "Partnerwork",
-    "category": "Partnerwork",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
     "video": "",
     "translation": "Basic"
   },
   {
     "name": "Right Turn",
-    "section": "Partnerwork",
-    "category": "Partnerwork",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
     "video": "",
     "translation": "Right Turn"
   },
   {
     "name": "Derecha",
-    "section": "Partnerwork",
-    "category": "Partnerwork",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
     "video": "",
     "translation": "Right"
   },
   {
     "name": "Rhombo",
-    "section": "Partnerwork",
-    "category": "Partnerwork",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
     "video": "",
     "translation": "Rhombus"
   },
   {
     "name": "Son",
-    "section": "Partnerwork",
-    "category": "Partnerwork",
+    "section": "Partnerwork Moves",
+    "category": "Partnerwork Moves",
     "video": "",
     "translation": "Son (Cuban Music Style)"
   },
   {
     "name": "Abajo",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Abajo",
     "video": "",
     "translation": "Below / Down"
   },
   {
     "name": "Exhibela",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Abajo",
     "video": "",
     "translation": "Show Her Off"
   },
   {
     "name": "Exhiblea Doble",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Abajo",
     "video": "",
     "translation": "Show Her Off, Double"
   },
   {
     "name": "Dile Que No",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Tell Her No"
   },
   {
     "name": "Coca-Cola",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Coca-Cola"
   },
   {
     "name": "Coca-Cola Doble",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Coca-Cola, Double"
   },
   {
     "name": "Paseala",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Walk Her Around"
   },
   {
     "name": "Paseala Y Complicate",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Walk Her Around, And Complicated"
   },
   {
     "name": "Tornote",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Dile que no",
     "video": "",
     "translation": "Turn Yourself Around"
   },
   {
     "name": "Enchufla",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Plug In / Connect"
   },
   {
     "name": "Doble",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Double"
   },
   {
     "name": "Dile Que No",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Tell Her No"
   },
   {
     "name": "Quedate",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Stay Put",
@@ -237,49 +237,49 @@
   },
   {
     "name": "Kentucky",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Kentucky"
   },
   {
     "name": "El Uno + El Dos",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "The One, The Two"
   },
   {
     "name": "Enchufa Triple",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Enchufa Triple"
   },
   {
     "name": "Enchufa Complicado",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Enchufa Complicado"
   },
   {
     "name": "Para Ti Para Mi",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "For You, For Me"
   },
   {
     "name": "Puente",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Bridge"
   },
   {
     "name": "Festival",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Festival",
@@ -292,42 +292,42 @@
   },
   {
     "name": "Tumba Francesa",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "French Tumba (Afro-Cuban Musical Tradition)"
   },
   {
     "name": "Pa'Dentro Y Pa'Fuera",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Enchufla",
     "video": "",
     "translation": "Pa'Dentro Y Pa'Fuera"
   },
   {
     "name": "Adios",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
     "translation": "Goodbye"
   },
   {
     "name": "Con La Hermana",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
     "translation": "With The Sister"
   },
   {
     "name": "Con La Familia",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
     "translation": "With The Family"
   },
   {
     "name": "Con Ella",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
     "translation": "With Her",
@@ -340,66 +340,73 @@
   },
   {
     "name": "Doble",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Adios",
     "video": "",
     "translation": "Double"
   },
   {
     "name": "Vacila",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Tease / Hesitate"
   },
   {
     "name": "Sombrero",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Hat"
   },
   {
     "name": "Setenta",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Seventy"
   },
   {
     "name": "Setenta Cubano",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Seventy, Cuban Style"
   },
   {
     "name": "Dedo",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Finger"
   },
   {
     "name": "Montana",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Vacila",
     "video": "",
     "translation": "Mountain"
   },
   {
     "name": "Ochenta",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Ochenta",
     "video": "",
     "translation": "Eighty"
   },
   {
     "name": "Siete",
-    "section": "Individual Couple Moves",
+    "section": "Rueda Moves",
     "category": "Siete",
     "video": "",
     "translation": "Seven"
+  },
+  {
+    "name": "Guapea",
+    "section": "Rueda Moves",
+    "category": "Rueda",
+    "video": "",
+    "translation": "To Make It Look Good"
   },
   {
     "name": "Caminala",
