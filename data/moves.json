@@ -60,6 +60,13 @@
     "translation": "Straight / Direct Passing"
   },
   {
+    "name": "Ya Tu Sabes",
+    "section": "Rueda Moves",
+    "category": "Dame",
+    "video": "",
+    "translation": "You Already Know"
+  },
+  {
     "name": "Ping Pong",
     "section": "Rueda Moves",
     "category": "Musicality",
@@ -278,6 +285,13 @@
     "translation": "Kentucky"
   },
   {
+    "name": "Cero",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Zero"
+  },
+  {
     "name": "El Uno + El Dos",
     "section": "Rueda Moves",
     "category": "Enchufla",
@@ -359,6 +373,13 @@
     "category": "Enchufla",
     "video": "",
     "translation": "Skate (Feminine)"
+  },
+  {
+    "name": "Trancala",
+    "section": "Rueda Moves",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Block It"
   },
   {
     "name": "Adios",
@@ -772,6 +793,13 @@
     "category": "Pa'centro",
     "video": "",
     "translation": "Eight"
+  },
+  {
+    "name": "Cero",
+    "section": "Rueda Structures",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Zero"
   },
   {
     "name": "Llanta",
