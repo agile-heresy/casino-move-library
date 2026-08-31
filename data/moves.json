@@ -29,7 +29,25 @@
     "section": "Rueda Moves",
     "category": "Dame",
     "video": "",
-    "translation": "Give me"
+    "translation": "Give me",
+    "variants": [
+      {
+        "name": "Con Gira",
+        "translation": "With Turn"
+      },
+      {
+        "name": "Con Uno",
+        "translation": "With One"
+      },
+      {
+        "name": "Con Dos",
+        "translation": "With Two"
+      },
+      {
+        "name": "Con Tres",
+        "translation": "With Three"
+      }
+    ]
   },
   {
     "name": "Dame Dos",
@@ -417,6 +435,13 @@
     "translation": "Goodbye"
   },
   {
+    "name": "Evelin",
+    "section": "Rueda Moves",
+    "category": "Adios",
+    "video": "",
+    "translation": "Evelin"
+  },
+  {
     "name": "Adios Con La Hermana",
     "section": "Rueda Moves",
     "category": "Adios",
@@ -486,11 +511,32 @@
     "translation": "Hat"
   },
   {
-    "name": "Doble",
+    "name": "Sombrero de Maní",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Peanut Hat"
+  },
+  {
+    "name": "Ochenta Ocho",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Eighty Eight"
+  },
+  {
+    "name": "Sombrero Doble",
     "section": "Rueda Moves",
     "category": "Sombrero",
     "video": "",
     "translation": "Double"
+  },
+  {
+    "name": "Sombrero de Abajo",
+    "section": "Rueda Moves",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat From Below"
   },
   {
     "name": "Abanico",
@@ -570,6 +616,27 @@
     "translation": "Finger"
   },
   {
+    "name": "Lager",
+    "section": "Rueda Moves",
+    "category": "Lager",
+    "video": "",
+    "translation": "Lager"
+  },
+  {
+    "name": "Lager Pa' Bajo",
+    "section": "Rueda Moves",
+    "category": "Lager",
+    "video": "",
+    "translation": "Lager Down"
+  },
+  {
+    "name": "Tunel",
+    "section": "Rueda Moves",
+    "category": "Lager",
+    "video": "",
+    "translation": "Tunnel"
+  },
+  {
     "name": "Montana",
     "section": "Rueda Moves",
     "category": "Sombrero",
@@ -582,6 +649,13 @@
     "category": "Ochenta",
     "video": "",
     "translation": "Eighty"
+  },
+  {
+    "name": "Magic Hands",
+    "section": "Rueda Moves",
+    "category": "Ochenta",
+    "video": "",
+    "translation": "Magic Hands"
   },
   {
     "name": "Siete",
