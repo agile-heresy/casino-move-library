@@ -226,4 +226,26 @@ createPanel({
   }),
 });
 
+function initThemeToggle() {
+  const button = document.getElementById('theme-toggle');
+  const icon = button.querySelector('.theme-toggle-icon');
+
+  function applyIcon(theme) {
+    icon.innerHTML = theme === 'light' ? '&#9789;' : '&#9788;';
+  }
+
+  applyIcon(document.documentElement.getAttribute('data-theme'));
+
+  button.addEventListener('click', () => {
+    const next =
+      document.documentElement.getAttribute('data-theme') === 'light'
+        ? 'dark'
+        : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    applyIcon(next);
+  });
+}
+
 initTabs();
+initThemeToggle();

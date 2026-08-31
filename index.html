@@ -6,14 +6,52 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Rueda de Casino Move Library</title>
+    <title>Casino Move Library</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+    />
     <link
       rel="stylesheet"
       href="assets/css/style.css"
     />
+    <script>
+      // Set theme before first paint to avoid a light/dark flash.
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var theme =
+          stored ||
+          (matchMedia('(prefers-color-scheme: light)').matches
+            ? 'light'
+            : 'dark');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header">
+      <button
+        type="button"
+        id="theme-toggle"
+        class="theme-toggle"
+        aria-label="Toggle light and dark mode"
+      >
+        <span
+          class="theme-toggle-icon"
+          aria-hidden="true"
+          >&#9788;</span
+        >
+      </button>
+      <p class="eyebrow">Azucar &middot; Casino</p>
       <h1>Casino Move Library</h1>
       <p class="tagline">
         A reference library of Casino dance moves, organized by section and
