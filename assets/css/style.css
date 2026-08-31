@@ -43,7 +43,11 @@
 body {
   margin: 0;
   font-family: var(--font-body);
-  background: var(--bg-image), var(--bg);
+  background:
+    radial-gradient(circle, var(--accent-soft) 1px, transparent 1px) 0 0 / 26px
+      26px,
+    var(--bg-image),
+    var(--bg);
   color: var(--text);
   transition:
     background-color 0.25s ease,
@@ -255,6 +259,18 @@ main {
     transform 0.15s ease,
     box-shadow 0.15s ease,
     border-color 0.15s ease;
+  animation: card-rise 0.35s ease both;
+}
+
+@keyframes card-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .move-card:hover {
@@ -275,6 +291,34 @@ main {
   color: var(--text-muted);
   font-size: 0.8rem;
   font-style: italic;
+}
+
+.move-translation {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.translation-label {
+  flex: none;
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.translation-text::before {
+  content: '\201C';
+}
+
+.translation-text::after {
+  content: '\201D';
 }
 
 .video-links {

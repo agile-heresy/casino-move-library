@@ -3,7 +3,8 @@
     "name": "Fly (dos, tres, pa'cielo, pa'bajo)",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "fly (musicality hit) (two, three, to the sky, downward)"
   },
   {
     "name": "Ping Pong",
@@ -15,32 +16,36 @@
     "name": "Una Bulla (suave, sexy, dos, largo)",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "a ruckus / commotion (smooth, sexy, two, long)"
   },
   {
     "name": "Matala/Suena La/Cucaracha (suave, dos)",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "hit it / play it, the cockroach (smooth, two)"
   },
   {
     "name": "Rollatazo",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "big roll"
   },
   {
     "name": "Echeverría/Zapatos",
     "section": "Individual Couple Moves",
     "category": "Musicality",
-    "video": ""
+    "video": "",
+    "translation": "Echeverría, shoes"
   },
-
   {
     "name": "Basico",
     "section": "Individual Couple Moves",
     "category": "Basics",
-    "video": ""
+    "video": "",
+    "translation": "basic"
   },
   {
     "name": "Right turn",
@@ -49,103 +54,116 @@
     "video": ""
   },
   {
-    "name": "Direcha",
+    "name": "Derecha",
     "section": "Individual Couple Moves",
     "category": "Basics",
-    "video": ""
+    "video": "",
+    "translation": "right"
   },
   {
     "name": "Rhombo",
     "section": "Individual Couple Moves",
     "category": "Basics",
-    "video": ""
+    "video": "",
+    "translation": "rhombus"
   },
   {
     "name": "Son",
     "section": "Individual Couple Moves",
     "category": "Basics",
-    "video": ""
+    "video": "",
+    "translation": "son (Cuban music style)"
   },
-
   {
     "name": "Abajo",
     "section": "Individual Couple Moves",
     "category": "Abajo",
-    "video": ""
+    "video": "",
+    "translation": "below / down"
   },
   {
     "name": "Exhibela",
     "section": "Individual Couple Moves",
     "category": "Abajo",
-    "video": ""
+    "video": "",
+    "translation": "show her off"
   },
   {
     "name": "Exhiblea Doble",
     "section": "Individual Couple Moves",
     "category": "Abajo",
-    "video": ""
+    "video": "",
+    "translation": "show her off, double"
   },
-
   {
     "name": "Dile que no",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "tell her no"
   },
   {
     "name": "Coca-cola",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "coca-cola"
   },
   {
     "name": "Coca-cola doble",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "coca-cola, double"
   },
   {
     "name": "Paseala",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "walk her around"
   },
   {
     "name": "Paseala y complicate",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "walk her around, and complicated"
   },
   {
     "name": "Tornote",
     "section": "Individual Couple Moves",
     "category": "Dile que no",
-    "video": ""
+    "video": "",
+    "translation": "turn yourself around"
   },
-
   {
     "name": "Enchufla",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "plug in / connect"
   },
   {
     "name": "Doble",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "double"
   },
   {
     "name": "Dile Que No",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "tell her no"
   },
   {
     "name": "Quedate (scorpion)",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "stay put"
   },
   {
     "name": "Kentucky",
@@ -157,7 +175,8 @@
     "name": "El uno + El dos",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "the one, the two"
   },
   {
     "name": "Enchufa triple",
@@ -175,13 +194,15 @@
     "name": "Para Ti Para Mi",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "for you, for me"
   },
   {
     "name": "Puente",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "bridge"
   },
   {
     "name": "Festival (Complicado)",
@@ -193,7 +214,8 @@
     "name": "Tumba Francesa",
     "section": "Individual Couple Moves",
     "category": "Enchufla",
-    "video": ""
+    "video": "",
+    "translation": "French Tumba (Afro-Cuban musical tradition)"
   },
   {
     "name": "Pa'dentro y Pa'fuera",
@@ -201,24 +223,26 @@
     "category": "Enchufla",
     "video": ""
   },
-
   {
     "name": "Adios",
     "section": "Individual Couple Moves",
     "category": "Adios",
-    "video": ""
+    "video": "",
+    "translation": "goodbye"
   },
   {
     "name": "Con La Hermana",
     "section": "Individual Couple Moves",
     "category": "Adios",
-    "video": ""
+    "video": "",
+    "translation": "with the sister"
   },
   {
     "name": "Con La Familia",
     "section": "Individual Couple Moves",
     "category": "Adios",
-    "video": ""
+    "video": "",
+    "translation": "with the family"
   },
   {
     "name": "Con Ella/Vecina",
@@ -230,96 +254,107 @@
     "name": "Doble",
     "section": "Individual Couple Moves",
     "category": "Adios",
-    "video": ""
+    "video": "",
+    "translation": "double"
   },
-
   {
     "name": "Vacila",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "tease / hesitate"
   },
   {
     "name": "Sombrero",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "hat"
   },
   {
     "name": "Setenta",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "seventy"
   },
   {
     "name": "Setenta cubano",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "seventy, Cuban style"
   },
   {
     "name": "Dedo",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "finger"
   },
   {
     "name": "Montana",
     "section": "Individual Couple Moves",
     "category": "Vacila",
-    "video": ""
+    "video": "",
+    "translation": "mountain"
   },
-
   {
     "name": "Ochenta",
     "section": "Individual Couple Moves",
     "category": "Ochenta",
-    "video": ""
+    "video": "",
+    "translation": "eighty"
   },
   {
     "name": "Siete",
     "section": "Individual Couple Moves",
     "category": "Siete",
-    "video": ""
+    "video": "",
+    "translation": "seven"
   },
-
   {
     "name": "Caminala",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "walk it"
   },
   {
     "name": "Con uno, con dos, con tres",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "with one, with two, with three"
   },
   {
     "name": "Al Reves",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "backwards / reversed"
   },
   {
     "name": "Chicos",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "boys"
   },
   {
     "name": "Chicas",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "girls"
   },
   {
     "name": "Saluda",
     "section": "Rueda Structures",
     "category": "Caminala",
-    "video": ""
+    "video": "",
+    "translation": "salute / greet"
   },
-
   {
     "name": "Pa'fuera",
     "section": "Rueda Structures",
@@ -344,7 +379,6 @@
     "category": "Pa'fuera",
     "video": ""
   },
-
   {
     "name": "Pa'medio",
     "section": "Rueda Structures",
@@ -355,39 +389,44 @@
     "name": "Agua del pozo",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "water from the well"
   },
   {
     "name": "Americano (con taro)",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "American style (with a spin)"
   },
   {
     "name": "Americana (con tarita)",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "American style (with a little jar)"
   },
   {
     "name": "Americano Syncronizado",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "synchronized American style"
   },
   {
     "name": "Flaco",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "skinny one"
   },
   {
     "name": "Gordo",
     "section": "Rueda Structures",
     "category": "Pa'medio",
-    "video": ""
+    "video": "",
+    "translation": "fat one"
   },
-
   {
     "name": "Pa'rriba",
     "section": "Rueda Structures",
@@ -398,27 +437,30 @@
     "name": "Taro (No le dejes)",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
-    "video": ""
+    "video": "",
+    "translation": "spin (colloquial) (don't let her go)"
   },
   {
     "name": "Taro Mentira",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
-    "video": ""
+    "video": "",
+    "translation": "fake spin"
   },
   {
     "name": "Jardin",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
-    "video": ""
+    "video": "",
+    "translation": "garden"
   },
   {
     "name": "Jardin Triple",
     "section": "Rueda Structures",
     "category": "Pa'rriba",
-    "video": ""
+    "video": "",
+    "translation": "garden, triple"
   },
-
   {
     "name": "Pa'tras",
     "section": "Rueda Structures",
@@ -429,9 +471,9 @@
     "name": "Tarita",
     "section": "Rueda Structures",
     "category": "Pa'tras",
-    "video": ""
+    "video": "",
+    "translation": "little jar"
   },
-
   {
     "name": "Pa'centro",
     "section": "Rueda Structures",
@@ -442,62 +484,71 @@
     "name": "Flor",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "flower"
   },
   {
     "name": "Hombres Izquierda/Derecha",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "men, left / right"
   },
   {
     "name": "Mujeres Izquierda/Derecha",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "women, left / right"
   },
   {
     "name": "Caja de Bolas",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "box of balls (ball-bearing spin)"
   },
   {
     "name": "Ocho",
     "section": "Rueda Structures",
     "category": "Pa'centro",
-    "video": ""
+    "video": "",
+    "translation": "eight"
   },
-
   {
     "name": "Llanta",
     "section": "Rueda Structures",
     "category": "Llanta",
-    "video": ""
+    "video": "",
+    "translation": "tire / wheel"
   },
   {
     "name": "Crusada",
     "section": "Rueda Structures",
     "category": "Crusada",
-    "video": ""
+    "video": "",
+    "translation": "crossed"
   },
   {
     "name": "Mixta",
     "section": "Rueda Structures",
     "category": "Mixta",
-    "video": ""
+    "video": "",
+    "translation": "mixed"
   },
   {
     "name": "Torno",
     "section": "Rueda Structures",
     "category": "Torno",
-    "video": ""
+    "video": "",
+    "translation": "turn / lathe"
   },
   {
     "name": "Reflejo",
     "section": "Rueda Structures",
     "category": "Reflejo",
-    "video": ""
+    "video": "",
+    "translation": "reflection"
   },
   {
     "name": "Switch",
@@ -509,12 +560,14 @@
     "name": "Trio Caliente",
     "section": "Rueda Structures",
     "category": "Trio Caliente",
-    "video": ""
+    "video": "",
+    "translation": "hot trio"
   },
   {
     "name": "Contrario",
     "section": "Rueda Structures",
     "category": "Contrario",
-    "video": ""
+    "video": "",
+    "translation": "opposite"
   }
 ]

@@ -1,3 +1,7 @@
+function capitalize(text) {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
 function createPanel({ dataUrl, elementSuffix, normalize }) {
   const state = {
     moves: [],
@@ -86,6 +90,23 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const title = document.createElement('h4');
     title.textContent = move.name;
     card.append(title);
+
+    if (move.translation) {
+      const gloss = document.createElement('p');
+      gloss.className = 'move-translation';
+
+      const label = document.createElement('span');
+      label.className = 'translation-label';
+      label.textContent = 'EN';
+      gloss.append(label);
+
+      const text = document.createElement('span');
+      text.className = 'translation-text';
+      text.textContent = capitalize(move.translation);
+      gloss.append(text);
+
+      card.append(gloss);
+    }
 
     if (move.note) {
       const note = document.createElement('p');
