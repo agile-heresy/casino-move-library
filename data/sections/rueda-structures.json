@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Al Reves",
+    "category": "Caminala",
+    "video": "",
+    "translation": "Backwards / Reversed"
+  },
+  {
+    "name": "Caminala",
+    "category": "Caminala",
+    "video": "",
+    "translation": "Walk It"
+  },
+  {
+    "name": "Chicas",
+    "category": "Caminala",
+    "video": "",
+    "translation": "Girls"
+  },
+  {
+    "name": "Chicos",
+    "category": "Caminala",
+    "video": "",
+    "translation": "Boys"
+  },
+  {
+    "name": "Con Uno, Con Dos, Con Tres",
+    "category": "Caminala",
+    "video": "",
+    "translation": "With One, With Two, With Three"
+  },
+  {
+    "name": "Saluda",
+    "category": "Caminala",
+    "video": "",
+    "translation": "Salute / Greet"
+  },
+  {
+    "name": "Contrario",
+    "category": "Contrario",
+    "video": "",
+    "translation": "Opposite"
+  },
+  {
+    "name": "Crusada",
+    "category": "Crusada",
+    "video": "",
+    "translation": "Crossed"
+  },
+  {
+    "name": "Llanta",
+    "category": "Llanta",
+    "video": "",
+    "translation": "Tire / Wheel"
+  },
+  {
+    "name": "Mixta",
+    "category": "Mixta",
+    "video": "",
+    "translation": "Mixed"
+  },
+  {
+    "name": "Caja De Bolas",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Box Of Balls (Ball-Bearing Spin)"
+  },
+  {
+    "name": "Cero",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Zero"
+  },
+  {
+    "name": "Flor",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Flower"
+  },
+  {
+    "name": "Hombres Izquierda",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Men, Left",
+    "altNames": [
+      {
+        "name": "Derecha",
+        "translation": "Right"
+      }
+    ]
+  },
+  {
+    "name": "Mujeres Izquierda",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Women, Left",
+    "altNames": [
+      {
+        "name": "Derecha",
+        "translation": "Right"
+      }
+    ]
+  },
+  {
+    "name": "Ocho",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Eight"
+  },
+  {
+    "name": "Pa'Centro",
+    "category": "Pa'centro",
+    "video": "",
+    "translation": "Pa'Centro"
+  },
+  {
+    "name": "Diet Coke",
+    "category": "Pa'fuera",
+    "video": "",
+    "translation": "Diet Coke"
+  },
+  {
+    "name": "Enchufla Flip",
+    "category": "Pa'fuera",
+    "video": "",
+    "translation": "Enchufla Flip",
+    "variants": [
+      {
+        "name": "Vuelta",
+        "translation": "Turn / Spin"
+      }
+    ]
+  },
+  {
+    "name": "Exhibela Pa'Fuera",
+    "category": "Pa'fuera",
+    "video": "",
+    "translation": "Exhibela Pa'Fuera"
+  },
+  {
+    "name": "Pa'Fuera",
+    "category": "Pa'fuera",
+    "video": "",
+    "translation": "Pa'Fuera"
+  },
+  {
+    "name": "Agua Del Pozo",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "Water From The Well"
+  },
+  {
+    "name": "Americana",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "American Style",
+    "variants": [
+      {
+        "name": "Con Tarita",
+        "translation": "With A Little Jar"
+      }
+    ]
+  },
+  {
+    "name": "Americano",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "American Style",
+    "variants": [
+      {
+        "name": "Con Taro",
+        "translation": "With A Spin"
+      }
+    ]
+  },
+  {
+    "name": "Americano Syncronizado",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "Synchronized American Style"
+  },
+  {
+    "name": "Flaco",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "Skinny One"
+  },
+  {
+    "name": "Gordo",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "Fat One"
+  },
+  {
+    "name": "Pa'Medio",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "Pa'Medio"
+  },
+  {
+    "name": "Todos Americanos",
+    "category": "Pa'medio",
+    "video": "",
+    "translation": "All Americans",
+    "variants": [
+      {
+        "name": "Con Saludos",
+        "translation": "With Greetings"
+      }
+    ]
+  },
+  {
+    "name": "Jardin",
+    "category": "Pa'rriba",
+    "video": "",
+    "translation": "Garden"
+  },
+  {
+    "name": "Jardin Triple",
+    "category": "Pa'rriba",
+    "video": "",
+    "translation": "Garden, Triple"
+  },
+  {
+    "name": "Pa'Rriba",
+    "category": "Pa'rriba",
+    "video": "",
+    "translation": "Pa'Rriba"
+  },
+  {
+    "name": "Taro",
+    "category": "Pa'rriba",
+    "video": "",
+    "translation": "Spin (Colloquial)",
+    "variants": [
+      {
+        "name": "No Le Dejes",
+        "translation": "Don'T Let Her Go"
+      }
+    ]
+  },
+  {
+    "name": "Taro Mentira",
+    "category": "Pa'rriba",
+    "video": "",
+    "translation": "Fake Spin"
+  },
+  {
+    "name": "Pa'Tras",
+    "category": "Pa'tras",
+    "video": "",
+    "translation": "Pa'Tras"
+  },
+  {
+    "name": "Tarita",
+    "category": "Pa'tras",
+    "video": "",
+    "translation": "Little Jar"
+  },
+  {
+    "name": "Paseo",
+    "category": "Paseo",
+    "video": "",
+    "translation": "Walk"
+  },
+  {
+    "name": "Promenade",
+    "category": "Paseo",
+    "video": "",
+    "translation": "Walk"
+  },
+  {
+    "name": "Reflejo",
+    "category": "Reflejo",
+    "video": "",
+    "translation": "Reflection"
+  },
+  {
+    "name": "Salaneo",
+    "category": "Salaneo",
+    "video": "",
+    "translation": ""
+  },
+  {
+    "name": "Switch",
+    "category": "Switch",
+    "video": "",
+    "translation": "Switch"
+  },
+  {
+    "name": "Torno",
+    "category": "Torno",
+    "video": "",
+    "translation": "Turn / Lathe"
+  },
+  {
+    "name": "Trio Caliente",
+    "category": "Trio Caliente",
+    "video": "",
+    "translation": "Hot Trio"
+  }
+]

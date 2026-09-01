@@ -9,7 +9,7 @@ Live site: https://agile-heresy.github.io/casino-move-library/
 ## Features
 
 - Two tabs:
-  - **Current Library** ([data/moves.json](data/moves.json)) — actively maintained moves, organized by move type (e.g. Rueda Moves, Partnerwork, Rueda Structures) and family (e.g. Enchufla, Vacila, Caminala).
+  - **Current Library** ([data/sections](data/sections)) — actively maintained moves, split into section files such as [data/sections/rueda-moves.json](data/sections/rueda-moves.json) and [data/sections/rueda-structures.json](data/sections/rueda-structures.json).
   - **Tumblr Archive** ([data/archive.json](data/archive.json)) — an older move list and video links exported from the [Azucar GMU Tumblr](https://azucar-gmu.tumblr.com/), organized by level (Beginner, Intermediate, Intermediate II, Structures).
 - Search plus move-type/family dropdown filters on each tab.
 - English translations shown under each move name, with alt names ("Also known as") and variants each carrying their own translation.
@@ -20,12 +20,12 @@ Live site: https://agile-heresy.github.io/casino-move-library/
 - `index.html` — page markup, tabs, header
 - `assets/css/style.css` — styling (theme variables, card layout)
 - `assets/js/main.js` — loads both JSON files, renders cards, handles search/filtering/theme toggle
-- `data/moves.json` — current move list (edit this to add/update entries)
+- `data/sections/*.json` — current library, split by section and sorted alphabetically within family and move name
 - `data/archive.json` — historical Tumblr archive (edit if you find corrections to old entries)
 
 ## Data schema
 
-Each move in `data/moves.json` looks like:
+Each file in `data/sections/` is a JSON array of move objects. Each move looks like:
 
 ```json
 {
@@ -35,16 +35,18 @@ Each move in `data/moves.json` looks like:
   "video": "https://www.youtube.com/watch?v=VIDEO_ID",
   "translation": "Plug In / Connect",
   "altNames": [{ "name": "Alt Name", "translation": "English Gloss" }],
-  "variants": [{ "name": "Doble", "translation": "Double" }]
+  "variants": [{ "name": "Doble", "translation": "Double" }],
+  "note": "Optional choreography note"
 }
 ```
 
 - `section` / `category` power the move-type and family filters (generated automatically from whatever values appear in the data).
-- `altNames` — names in the original text separated by `/` (different names for the same move).
-- `variants` — text that was in parentheses in the original name (variations on how the move is performed).
+- `altNames` — alternate names for the same move.
+- `variants` — named variations or versions of the move.
 - `translation` / each alt name's / each variant's `translation` should always be filled in — for already-English words (proper nouns, loanwords), just repeat the word itself.
+- `note` is optional and used only when a move needs extra choreography context.
 
-`data/archive.json` has the same per-move shape, but wraps moves in `{ "sectionNotes": {...}, "moves": [...] }` and uses `videos: [{ "label": "Leader's video", "url": "..." }]` (an array, since Tumblr often listed multiple videos per move) instead of a single `video` string. `note` is an optional free-text field for choreography descriptions that didn't have a video.
+`data/archive.json` has the same per-move shape, but wraps moves in `{ "sectionNotes": {...}, "moves": [...] }` and uses `videos: [{ "label": "Leader's video", "url": "..." }]` (an array, since Tumblr often listed multiple videos per move) instead of a single `video` string.
 
 > **Note:** Some entries still have an empty `video`/`videos` field — fill them in with real YouTube links as you find/record them. Cards without a video show "No video yet" instead of a link.
 

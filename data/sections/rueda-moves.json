@@ -1,0 +1,796 @@
+[
+  {
+    "name": "Abajo",
+    "category": "Abajo",
+    "video": "",
+    "translation": "Below / Down"
+  },
+  {
+    "name": "Exhibela",
+    "category": "Abajo",
+    "video": "",
+    "translation": "Show Her Off"
+  },
+  {
+    "name": "Exhiblea Doble",
+    "category": "Abajo",
+    "video": "",
+    "translation": "Show Her Off, Double"
+  },
+  {
+    "name": "Adiós",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Goodbye"
+  },
+  {
+    "name": "Adiós Con Ella",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Goodbye With Her",
+    "altNames": [
+      {
+        "name": "Adiós Con Vecina",
+        "translation": "Goodbye With Neighbor"
+      }
+    ]
+  },
+  {
+    "name": "Adiós Con La Familia",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Goodbye With The Family"
+  },
+  {
+    "name": "Adiós Con La Hermana",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Goodbye With The Sister"
+  },
+  {
+    "name": "Adiós Doble",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Double"
+  },
+  {
+    "name": "Evelin",
+    "category": "Adiós",
+    "video": "",
+    "translation": "Evelin"
+  },
+  {
+    "name": "Dame",
+    "category": "Dame",
+    "video": "",
+    "translation": "Give me",
+    "variants": [
+      {
+        "name": "Con Gira",
+        "translation": "With Turn"
+      },
+      {
+        "name": "Con Uno",
+        "translation": "With One"
+      },
+      {
+        "name": "Con Dos",
+        "translation": "With Two"
+      },
+      {
+        "name": "Con Tres",
+        "translation": "With Three"
+      }
+    ]
+  },
+  {
+    "name": "Dame Dos",
+    "category": "Dame",
+    "video": "",
+    "translation": "Give me Two"
+  },
+  {
+    "name": "Directo",
+    "category": "Dame",
+    "video": "",
+    "translation": "Straight / Direct"
+  },
+  {
+    "name": "Directo Pasando",
+    "category": "Dame",
+    "video": "",
+    "translation": "Straight / Direct Passing"
+  },
+  {
+    "name": "La De Arriba",
+    "category": "Dame",
+    "video": "",
+    "translation": "The One Above"
+  },
+  {
+    "name": "Paseala",
+    "category": "Dame",
+    "video": "",
+    "translation": "Pass It"
+  },
+  {
+    "name": "Ya Tu Sabes",
+    "category": "Dame",
+    "video": "",
+    "translation": "You Already Know"
+  },
+  {
+    "name": "Dedo",
+    "category": "Dedo",
+    "video": "",
+    "translation": "Finger"
+  },
+  {
+    "name": "Coca-Cola",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Coca-Cola"
+  },
+  {
+    "name": "Coca-Cola Doble",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Coca-Cola, Double"
+  },
+  {
+    "name": "Dile Que No",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Tell Her No"
+  },
+  {
+    "name": "Paseala",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Walk Her Around"
+  },
+  {
+    "name": "Paseala Y Complicate",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Walk Her Around, And Complicated"
+  },
+  {
+    "name": "Tornote",
+    "category": "Dile que no",
+    "video": "",
+    "translation": "Turn Yourself Around"
+  },
+  {
+    "name": "Cero",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Zero"
+  },
+  {
+    "name": "El Uno + El Dos",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "The One, The Two"
+  },
+  {
+    "name": "Enchufala Complicado",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Enchufala Complicado"
+  },
+  {
+    "name": "Enchufala Dile Que No",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Enchufala Tell Her No"
+  },
+  {
+    "name": "Enchufala Quedate",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Stay Put",
+    "variants": [
+      {
+        "name": "Scorpion",
+        "translation": "Scorpion"
+      }
+    ]
+  },
+  {
+    "name": "Enchufala Triple",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Enchufala Triple"
+  },
+  {
+    "name": "Enchufla",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Plug In / Connect"
+  },
+  {
+    "name": "Enchufla Doble",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Enchufla Double"
+  },
+  {
+    "name": "Festival de Enchufla",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Festival of Enchufla",
+    "variants": [
+      {
+        "name": "Complicado",
+        "translation": "Complicated"
+      }
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Kentucky"
+  },
+  {
+    "name": "Kentucky Complicado",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Kentucky Complicado"
+  },
+  {
+    "name": "Manolin",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Manolin (Cuban Singer)"
+  },
+  {
+    "name": "Pa'Dentro Y Pa'Fuera",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Pa'Dentro Y Pa'Fuera"
+  },
+  {
+    "name": "Para Ti Para Mi",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "For You, For Me"
+  },
+  {
+    "name": "Patine",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Skate"
+  },
+  {
+    "name": "Patineta",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Skate (Feminine)"
+  },
+  {
+    "name": "Puente",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Bridge"
+  },
+  {
+    "name": "Tranca La",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "Block It"
+  },
+  {
+    "name": "Tumba Francesa",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "French Tumba (Afro-Cuban Musical Tradition)"
+  },
+  {
+    "name": "Guapea",
+    "category": "Guapea",
+    "video": "",
+    "translation": "Make It Look Good"
+  },
+  {
+    "name": "Lager",
+    "category": "Lager",
+    "video": "",
+    "translation": "Lager"
+  },
+  {
+    "name": "Lager Pa' Bajo",
+    "category": "Lager",
+    "video": "",
+    "translation": "Lager Down"
+  },
+  {
+    "name": "Túnel",
+    "category": "Lager",
+    "video": "",
+    "translation": "Tunnel"
+  },
+  {
+    "name": "Echeverría",
+    "category": "Musicality",
+    "video": "",
+    "translation": "Echeverría",
+    "altNames": [
+      {
+        "name": "Zapatos",
+        "translation": "Shoes"
+      }
+    ]
+  },
+  {
+    "name": "Fly",
+    "category": "Musicality",
+    "video": "",
+    "translation": "Fly Ball (Baseball Term)",
+    "variants": [
+      {
+        "name": "Dos",
+        "translation": "Two"
+      },
+      {
+        "name": "Tres",
+        "translation": "Three"
+      },
+      {
+        "name": "Pa'Cielo",
+        "translation": "To The Sky"
+      },
+      {
+        "name": "Pa'Bajo",
+        "translation": "Downward"
+      }
+    ]
+  },
+  {
+    "name": "Matala",
+    "category": "Musicality",
+    "video": "",
+    "translation": "Hit It / Play It, The Cockroach",
+    "altNames": [
+      {
+        "name": "Suena La",
+        "translation": "Play It / Sound It"
+      },
+      {
+        "name": "Cucaracha",
+        "translation": "Cockroach"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Suave",
+        "translation": "Smooth"
+      },
+      {
+        "name": "Dos",
+        "translation": "Two"
+      }
+    ]
+  },
+  {
+    "name": "Ping Pong",
+    "category": "Musicality",
+    "video": "",
+    "translation": "Ping Pong"
+  },
+  {
+    "name": "Roletazo",
+    "category": "Musicality",
+    "video": "",
+    "translation": "Line Drive (Baseball Term)"
+  },
+  {
+    "name": "Una Bulla",
+    "category": "Musicality",
+    "video": "",
+    "translation": "A Ruckus / Commotion",
+    "variants": [
+      {
+        "name": "Suave",
+        "translation": "Smooth"
+      },
+      {
+        "name": "Sexy",
+        "translation": "Sexy"
+      },
+      {
+        "name": "Dos",
+        "translation": "Two"
+      },
+      {
+        "name": "Largo",
+        "translation": "Long"
+      }
+    ]
+  },
+  {
+    "name": "Magic Hands",
+    "category": "Ochenta",
+    "video": "",
+    "translation": "Magic Hands"
+  },
+  {
+    "name": "Ochenta",
+    "category": "Ochenta",
+    "video": "",
+    "translation": "Eighty"
+  },
+  {
+    "name": "Arco Iris",
+    "category": "Setenta",
+    "video": "",
+    "translation": "Rainbow"
+  },
+  {
+    "name": "Setenta",
+    "category": "Setenta",
+    "video": "",
+    "translation": "Seventy"
+  },
+  {
+    "name": "Setenta Complicado",
+    "category": "Setenta",
+    "video": "",
+    "translation": "Seventy, Complicated"
+  },
+  {
+    "name": "Setenta Cubano",
+    "category": "Setenta",
+    "video": "",
+    "translation": "Seventy, Cuban Style"
+  },
+  {
+    "name": "Siete",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven"
+  },
+  {
+    "name": "Siete Atrevido",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Bold"
+  },
+  {
+    "name": "Siete Coca-Cola",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Coca-Cola"
+  },
+  {
+    "name": "Siete Moderno",
+    "category": "Siete",
+    "video": "",
+    "translation": "Seven Modern"
+  },
+  {
+    "name": "Abanico",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Fan"
+  },
+  {
+    "name": "Abanico Con Gancho",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Fan With Hook"
+  },
+  {
+    "name": "Beso",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Kiss"
+  },
+  {
+    "name": "Beso Unisex",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Unisex Kiss"
+  },
+  {
+    "name": "Juana La Cubana",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Juana The Cuban"
+  },
+  {
+    "name": "Montana",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Mountain"
+  },
+  {
+    "name": "Ochenta Ocho",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Eighty Eight"
+  },
+  {
+    "name": "Sombrero",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat"
+  },
+  {
+    "name": "Sombrero Complicado",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Complicated Hat"
+  },
+  {
+    "name": "Sombrero de Abajo",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat From Below"
+  },
+  {
+    "name": "Sombrero de Maní",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Peanut Hat"
+  },
+  {
+    "name": "Sombrero Doble",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Double"
+  },
+  {
+    "name": "Tocala la T",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Touch the T"
+  },
+  {
+    "name": "Vacila",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tease / Hesitate"
+  },
+  {
+    "name": "Vacila Entrada",
+    "category": "Vacila",
+    "video": "",
+    "translation": ""
+  },
+  {
+    "name": "Vacila y Dame",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tease / Hesitate and Give Me"
+  },
+  {
+    "name": "La Playa",
+    "category": "Rodeo",
+    "video": "",
+    "translation": "The Beach"
+  },
+  {
+    "name": "Rodeo",
+    "category": "Rodeo",
+    "video": "",
+    "translation": "Rodeo",
+    "altNames": [
+      {
+        "name": "Lazo",
+        "translation": "Lasso"
+      }
+    ]
+  },
+  {
+    "name": "Rodeo Inverso",
+    "category": "Rodeo",
+    "video": "",
+    "translation": "Reverse Rodeo"
+  },
+  {
+    "name": "Rodeo Pasando",
+    "category": "Rodeo",
+    "video": "",
+    "translation": "Passing Rodeo"
+  },
+  {
+    "name": "6 Y 9",
+    "category": "General",
+    "video": "",
+    "translation": "Six And Nine"
+  },
+  {
+    "name": "Abrazala",
+    "category": "Abrazala",
+    "video": "",
+    "translation": "Embrace Her"
+  },
+  {
+    "name": "Balsero",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Rafter / Ferryman"
+  },
+  {
+    "name": "Consorte",
+    "category": "General",
+    "video": "",
+    "translation": "Partner / Consort"
+  },
+  {
+    "name": "Dame Con Los Manos",
+    "category": "Dame",
+    "video": "",
+    "translation": "Give Me Your Hands"
+  },
+  {
+    "name": "Dile Que Si",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tell Her Yes"
+  },
+  {
+    "name": "Disponible Completo",
+    "category": "General",
+    "video": "",
+    "translation": "Available, Complete"
+  },
+  {
+    "name": "Disponible Simple",
+    "category": "General",
+    "video": "",
+    "translation": "Available, Simple"
+  },
+  {
+    "name": "El Anillo",
+    "category": "General",
+    "video": "",
+    "translation": "The Ring"
+  },
+  {
+    "name": "El Cero",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "The Zero"
+  },
+  {
+    "name": "El Uno",
+    "category": "Enchufla",
+    "video": "",
+    "translation": "The One"
+  },
+  {
+    "name": "Izquierda Con Izquierda",
+    "category": "General",
+    "video": "",
+    "translation": "Left With Left"
+  },
+  {
+    "name": "Mezcla Santiaguera",
+    "category": "General",
+    "video": "",
+    "translation": "Santiago-Style Mix"
+  },
+  {
+    "name": "Ochentai Ocho",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Eighty Eight"
+  },
+  {
+    "name": "Pedro Navaja",
+    "category": "General",
+    "video": "",
+    "translation": "Pedro Navaja"
+  },
+  {
+    "name": "Ponle Sabor",
+    "category": "General",
+    "video": "",
+    "translation": "Give It Flavor"
+  },
+  {
+    "name": "Por Dentro Y Por Afuera",
+    "category": "General",
+    "video": "",
+    "translation": "Inside And Outside"
+  },
+  {
+    "name": "Rico Pilon",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tasty Mortar & Pestle (Slang)"
+  },
+  {
+    "name": "Rico Y Suave",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Rich And Smooth"
+  },
+  {
+    "name": "Sombrero De Abajo",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat From Below"
+  },
+  {
+    "name": "Sombrero De Mani",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Peanut Hat"
+  },
+  {
+    "name": "Sombrero Mambo",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat, Mambo Style"
+  },
+  {
+    "name": "Sombrero Pasaela",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat, Pass It"
+  },
+  {
+    "name": "Sombrero Por Adentro Y Por Afuera",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Hat, Inside And Outside"
+  },
+  {
+    "name": "Sombrero Santo",
+    "category": "Sombrero",
+    "video": "",
+    "translation": "Holy Hat"
+  },
+  {
+    "name": "Soraya",
+    "category": "General",
+    "video": "",
+    "translation": "Soraya"
+  },
+  {
+    "name": "Suave",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Smooth / Soft"
+  },
+  {
+    "name": "Three Way Stop",
+    "category": "General",
+    "video": "",
+    "translation": "Three Way Stop"
+  },
+  {
+    "name": "Un Tarro",
+    "category": "Pa' Arriba",
+    "video": "",
+    "translation": "Un Tarro"
+  },
+  {
+    "name": "Un Tarro De Mentira",
+    "category": "Pa' Arriba",
+    "video": "",
+    "translation": "Un Tarro De Mentira"
+  },
+  {
+    "name": "Vacila De Mentira",
+    "category": "Vacila",
+    "video": "",
+    "translation": "Tease / Hesitate, Lie"
+  },
+  {
+    "name": "Vacilense Los Dos",
+    "category": "Vacila",
+    "video": "",
+    "translation": "The Two Of You Tease Each Other"
+  },
+  {
+    "name": "Yogurt",
+    "category": "General",
+    "video": "",
+    "translation": "Yogurt"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Casino Move Library",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "category", "video", "translation"],
+    "additionalProperties": true,
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The move name as it appears in the library."
+      },
+      "category": {
+        "type": "string",
+        "description": "The family/group within the file-scoped section."
+      },
+      "video": {
+        "type": "string",
+        "description": "A single YouTube or other video URL, or an empty string when unknown."
+      },
+      "translation": {
+        "type": "string",
+        "description": "English gloss for the move name."
+      },
+      "altNames": {
+        "type": "array",
+        "description": "Alternative names or aliases for the same move.",
+        "items": {
+          "$ref": "#/$defs/nameTranslation"
+        }
+      },
+      "variants": {
+        "type": "array",
+        "description": "Named variations of the move.",
+        "items": {
+          "$ref": "#/$defs/nameTranslation"
+        }
+      },
+      "note": {
+        "type": "string",
+        "description": "Optional choreography notes or clarifying context."
+      },
+      "videos": {
+        "type": "array",
+        "description": "Used in archive data only, with objects containing url and optional label.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "url": { "type": "string" }
+          },
+          "required": ["url"],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nameTranslation": {
+      "type": "object",
+      "required": ["name", "translation"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "translation": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

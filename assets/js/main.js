@@ -53,9 +53,17 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     `category-filter-${elementSuffix}`,
   );
 
+  function compareStrings(a, b) {
+    return a.localeCompare(b, undefined, { sensitivity: 'base' });
+  }
+
   function populateFilterOptions(moves) {
-    const sections = [...new Set(moves.map((m) => m.section))].sort();
-    const categories = [...new Set(moves.map((m) => m.category))].sort();
+    const sections = [...new Set(moves.map((m) => m.section))].sort(
+      compareStrings,
+    );
+    const categories = [...new Set(moves.map((m) => m.category))].sort(
+      compareStrings,
+    );
 
     for (const section of sections) {
       const option = document.createElement('option');
@@ -74,8 +82,11 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
   function groupBySectionThenCategory(moves) {
     const sections = new Map();
+    const sortedMoves = [...moves].sort((a, b) =>
+      compareStrings(a.name, b.name),
+    );
 
-    for (const move of moves) {
+    for (const move of sortedMoves) {
       if (!sections.has(move.section)) {
         sections.set(move.section, new Map());
       }
@@ -86,7 +97,30 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
       categories.get(move.category).push(move);
     }
 
-    return sections;
+    const orderedSections = [...sections.entries()].sort(([left], [right]) =>
+      compareStrings(left, right),
+    );
+    const ordered = new Map();
+
+    for (const [sectionName, categories] of orderedSections) {
+      const orderedCategories = new Map();
+      const sortedCategories = [...categories.entries()].sort(
+        ([left], [right]) => compareStrings(left, right),
+      );
+
+      for (const [categoryName, categoryMoves] of sortedCategories) {
+        orderedCategories.set(
+          categoryName,
+          [...categoryMoves].sort((left, right) =>
+            compareStrings(left.name, right.name),
+          ),
+        );
+      }
+
+      ordered.set(sectionName, orderedCategories);
+    }
+
+    return ordered;
   }
 
   function createSectionHeading(name) {
@@ -295,9 +329,18 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
   }
 
   async function init() {
-    const response = await fetch(dataUrl);
-    const data = await response.json();
-    const { moves, sectionNotes } = normalize(data);
+    const rawData = Array.isArray(dataUrl)
+      ? (
+          await Promise.all(
+            dataUrl.map(async (url) => {
+              const response = await fetch(url);
+              return response.json();
+            }),
+          )
+        ).flat()
+      : await (await fetch(dataUrl)).json();
+
+    const { moves, sectionNotes } = normalize(rawData);
 
     state.moves = moves.map((move, index) => ({
       ...move,
@@ -352,7 +395,11 @@ function initTabs() {
 
 // current library: flat array of moves with a single `video` string
 createPanel({
-  dataUrl: 'data/moves.json',
+  dataUrl: [
+    'data/sections/partnerwork-moves.json',
+    'data/sections/rueda-moves.json',
+    'data/sections/rueda-structures.json',
+  ],
   elementSuffix: 'current',
   normalize: (data) => ({
     moves: data.map((move) => ({
