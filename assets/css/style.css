@@ -151,10 +151,17 @@ body {
   font-weight: 600;
 }
 
-.theme-toggle {
+.header-toggles {
   position: absolute;
   top: 1.25rem;
   right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle,
+.language-toggle {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
@@ -173,6 +180,20 @@ body {
 
 .theme-toggle:hover {
   transform: rotate(20deg);
+  background: var(--accent-soft);
+}
+
+.language-toggle {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.language-toggle:hover {
+  color: var(--accent-strong);
   background: var(--accent-soft);
 }
 

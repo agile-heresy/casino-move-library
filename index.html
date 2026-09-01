@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Casino Move Library</title>
+    <title data-i18n="pageTitle">Casino Move Library</title>
     <link
       rel="icon"
       type="image/svg+xml"
@@ -44,41 +44,60 @@
   </head>
   <body>
     <header class="site-header">
-      <button
-        type="button"
-        id="theme-toggle"
-        class="theme-toggle"
-        aria-label="Toggle light and dark mode"
-      >
-        <span
-          class="theme-toggle-icon"
-          aria-hidden="true"
-          >&#9788;</span
+      <div class="header-toggles">
+        <button
+          type="button"
+          id="language-toggle"
+          class="language-toggle"
+          aria-label="Switch to Spanish"
         >
-      </button>
+          🇨🇺
+        </button>
+        <button
+          type="button"
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle light and dark mode"
+        >
+          <span
+            class="theme-toggle-icon"
+            aria-hidden="true"
+            >&#9788;</span
+          >
+        </button>
+      </div>
       <p class="eyebrow">Azucar &middot; Casino</p>
-      <h1>Casino Move Library</h1>
-      <p class="tagline">
+      <h1 data-i18n="pageTitle">Casino Move Library</h1>
+      <p
+        class="tagline"
+        data-i18n="tagline"
+      >
         A reference library of Casino dance moves, organized by section and
         family, with video links.
       </p>
-      <p class="disclaimer">
+      <p
+        class="disclaimer"
+        data-i18n="disclaimer"
+      >
         These are not the "right" or "official" way to do these moves, but
         rather a reference for learning and practice.
       </p>
       <details class="about-callout">
-        <summary>What is Casino dancing?</summary>
+        <summary data-i18n="aboutSummary">What is Casino dancing?</summary>
         <p class="about-blurb">
-          Casino is a social partner dance style (sometimes danced in a group
-          called a rueda) that originated in Havana, Cuba in the 1950s, danced
-          to timba music. In a rueda, couples dance in a circle and switch
-          partners as a cantante (caller) shouts out named moves. Learn more at
+          <span data-i18n="aboutBlurbBeforeLink"
+            >Casino is a social partner dance style (sometimes danced in a group
+            called a rueda) that originated in Havana, Cuba in the 1950s, danced
+            to timba music. In a rueda, couples dance in a circle and switch
+            partners as a cantante (caller) shouts out named moves. Learn more
+            at
+          </span>
           <a
             href="https://sonycasino.com/"
             target="_blank"
             rel="noopener noreferrer"
             >Son y Casino</a
-          >.
+          ><span data-i18n="aboutBlurbAfterLink">.</span>
         </p>
       </details>
     </header>
@@ -93,7 +112,7 @@
         data-tab="current"
         aria-selected="true"
       >
-        Main Library
+        <span data-i18n="mainLibrary">Main Library</span>
       </button>
       <button
         type="button"
@@ -101,7 +120,7 @@
         data-tab="archive"
         aria-selected="false"
       >
-        Tumblr Archive
+        <span data-i18n="tumblrArchive">Tumblr Archive</span>
       </button>
     </nav>
 
@@ -116,19 +135,33 @@
             type="search"
             id="search-input-current"
             placeholder="Search moves..."
+            data-i18n-placeholder="searchMoves"
             aria-label="Search moves"
+            data-i18n-aria-label="searchMoves"
           />
           <select
             id="section-filter-current"
             aria-label="Filter by move type"
+            data-i18n-aria-label="filterMoveType"
           >
-            <option value="all">All Move Types</option>
+            <option
+              value="all"
+              data-i18n="allMoveTypes"
+            >
+              All Move Types
+            </option>
           </select>
           <select
             id="category-filter-current"
             aria-label="Filter by family"
+            data-i18n-aria-label="filterFamily"
           >
-            <option value="all">All Families</option>
+            <option
+              value="all"
+              data-i18n="allFamilies"
+            >
+              All Families
+            </option>
           </select>
         </div>
 
@@ -142,7 +175,7 @@
           class="empty-state"
           hidden
         >
-          No moves match your filters.
+          <span data-i18n="noMoves">No moves match your filters.</span>
         </p>
       </section>
 
@@ -153,32 +186,48 @@
         hidden
       >
         <p class="archive-intro">
-          An older list of moves and video links exported from the
+          <span data-i18n="archiveIntroBeforeLink"
+            >An older list of moves and video links exported from the
+          </span>
           <a
             href="https://azucar-gmu.tumblr.com/"
             target="_blank"
             rel="noopener noreferrer"
             >Azucar GMU Tumblr</a
-          >.
+          ><span data-i18n="archiveIntroAfterLink">.</span>
         </p>
         <div class="controls">
           <input
             type="search"
             id="search-input-archive"
             placeholder="Search moves..."
+            data-i18n-placeholder="searchMoves"
             aria-label="Search moves"
+            data-i18n-aria-label="searchMoves"
           />
           <select
             id="section-filter-archive"
             aria-label="Filter by level"
+            data-i18n-aria-label="filterLevel"
           >
-            <option value="all">All Levels</option>
+            <option
+              value="all"
+              data-i18n="allLevels"
+            >
+              All Levels
+            </option>
           </select>
           <select
             id="category-filter-archive"
             aria-label="Filter by family"
+            data-i18n-aria-label="filterFamily"
           >
-            <option value="all">All Families</option>
+            <option
+              value="all"
+              data-i18n="allFamilies"
+            >
+              All Families
+            </option>
           </select>
         </div>
 
@@ -192,16 +241,20 @@
           class="empty-state"
           hidden
         >
-          No moves match your filters.
+          <span data-i18n="noMoves">No moves match your filters.</span>
         </p>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>
-        Moves are listed in <a href="data/moves.json">data/moves.json</a> and
-        <a href="data/archive.json">data/archive.json</a> — add your own by
-        editing those files.
+        <span data-i18n="footerBeforeMoves">Moves are listed in </span
+        ><a href="data/moves.json">data/moves.json</a
+        ><span data-i18n="footerBetweenFiles"> and </span>
+        <a href="data/archive.json">data/archive.json</a
+        ><span data-i18n="footerAfterFiles">
+          - add your own by editing those files.</span
+        >
       </p>
     </footer>
 

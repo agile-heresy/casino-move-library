@@ -1,3 +1,130 @@
+const translations = {
+  en: {
+    pageTitle: 'Casino Move Library',
+    tagline:
+      'A reference library of Casino dance moves, organized by section and family, with video links.',
+    disclaimer:
+      'These are not the "right" or "official" way to do these moves, but rather a reference for learning and practice.',
+    aboutSummary: 'What is Casino dancing?',
+    aboutBlurbBeforeLink:
+      'Casino is a social partner dance style (sometimes danced in a group called a rueda) that originated in Havana, Cuba in the 1950s, danced to timba music. In a rueda, couples dance in a circle and switch partners as a cantante (caller) shouts out named moves. Learn more at ',
+    aboutBlurbAfterLink: '.',
+    mainLibrary: 'Main Library',
+    tumblrArchive: 'Tumblr Archive',
+    searchMoves: 'Search moves...',
+    filterMoveType: 'Filter by move type',
+    filterLevel: 'Filter by level',
+    filterFamily: 'Filter by family',
+    allMoveTypes: 'All Move Types',
+    allLevels: 'All Levels',
+    allFamilies: 'All Families',
+    noMoves: 'No moves match your filters.',
+    archiveIntroBeforeLink:
+      'An older list of moves and video links exported from the ',
+    archiveIntroAfterLink: '.',
+    footerBeforeMoves: 'Moves are listed in ',
+    footerBetweenFiles: ' and ',
+    footerAfterFiles: ' - add your own by editing those files.',
+    copyMoveLink: 'Copy link to this move',
+    alsoKnownAs: 'Also known as',
+    variants: 'Variants',
+    noVideo: 'No video yet',
+    watchVideo: 'Watch video',
+    translationLanguage: 'EN',
+    sectionPartnerwork: 'Partnerwork Moves',
+    sectionRuedaMoves: 'Rueda Moves',
+    sectionRuedaStructures: 'Rueda Structures',
+    levelBeginner: 'Beginner',
+    levelIntermediate: 'Intermediate',
+    levelIntermediateII: 'Intermediate II',
+    levelStructures: 'Structures',
+    switchToSpanish: 'Switch to Spanish',
+    switchToEnglish: 'Switch to English',
+    themeToggle: 'Toggle light and dark mode',
+  },
+  es: {
+    pageTitle: 'Biblioteca de Figuras de Casino',
+    tagline:
+      'Una biblioteca de referencia de figuras de Casino, organizada por sección y familia, con enlaces de vídeo.',
+    disclaimer:
+      'Estas no son las formas "correctas" u "oficiales" de hacer estas figuras, sino una referencia para aprender y practicar.',
+    aboutSummary: '¿Qué es el baile Casino?',
+    aboutBlurbBeforeLink:
+      'Casino es un estilo de baile social en pareja, a veces bailado en grupo y llamado rueda, que surgió en La Habana, Cuba, en los años 1950 y se baila con música timba. En una rueda, las parejas bailan en círculo y cambian de pareja cuando un cantante anuncia las figuras. Aprende más en ',
+    aboutBlurbAfterLink: '.',
+    mainLibrary: 'Biblioteca Principal',
+    tumblrArchive: 'Archivo de Tumblr',
+    searchMoves: 'Buscar figuras...',
+    filterMoveType: 'Filtrar por tipo de figura',
+    filterLevel: 'Filtrar por nivel',
+    filterFamily: 'Filtrar por familia',
+    allMoveTypes: 'Todos los tipos de figuras',
+    allLevels: 'Todos los niveles',
+    allFamilies: 'Todas las familias',
+    noMoves: 'Ninguna figura coincide con los filtros.',
+    archiveIntroBeforeLink:
+      'Una lista anterior de figuras y enlaces de vídeo exportada del ',
+    archiveIntroAfterLink: '.',
+    footerBeforeMoves: 'Las figuras aparecen en ',
+    footerBetweenFiles: ' y ',
+    footerAfterFiles: '. Agrega las tuyas editando esos archivos.',
+    copyMoveLink: 'Copiar enlace a esta figura',
+    alsoKnownAs: 'También conocida como',
+    variants: 'Variantes',
+    noVideo: 'Aún no hay vídeo',
+    watchVideo: 'Ver vídeo',
+    translationLanguage: 'ING',
+    sectionPartnerwork: 'Figuras de pareja',
+    sectionRuedaMoves: 'Figuras de rueda',
+    sectionRuedaStructures: 'Estructuras de rueda',
+    levelBeginner: 'Principiante',
+    levelIntermediate: 'Intermedio',
+    levelIntermediateII: 'Intermedio II',
+    levelStructures: 'Estructuras',
+    switchToSpanish: 'Cambiar a español',
+    switchToEnglish: 'Cambiar a inglés',
+    themeToggle: 'Alternar entre modo claro y oscuro',
+  },
+};
+
+let locale = localStorage.getItem('locale') === 'es' ? 'es' : 'en';
+const sectionTranslationKeys = {
+  'Partnerwork Moves': 'sectionPartnerwork',
+  'Rueda Moves': 'sectionRuedaMoves',
+  'Rueda Structures': 'sectionRuedaStructures',
+  Beginner: 'levelBeginner',
+  Intermediate: 'levelIntermediate',
+  'Intermediate II': 'levelIntermediateII',
+  Structures: 'levelStructures',
+};
+
+function t(key) {
+  return translations[locale][key] ?? translations.en[key] ?? key;
+}
+
+function applyLocale() {
+  document.documentElement.lang = locale;
+  document.querySelectorAll('[data-i18n]').forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((element) => {
+    element.placeholder = t(element.dataset.i18nPlaceholder);
+  });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((element) => {
+    element.setAttribute('aria-label', t(element.dataset.i18nAriaLabel));
+  });
+  document
+    .getElementById('theme-toggle')
+    .setAttribute('aria-label', t('themeToggle'));
+  const languageButton = document.getElementById('language-toggle');
+  languageButton.textContent = locale === 'en' ? '🇨🇺' : '🇺🇸';
+  languageButton.setAttribute(
+    'aria-label',
+    locale === 'en' ? t('switchToSpanish') : t('switchToEnglish'),
+  );
+  window.dispatchEvent(new Event('localechange'));
+}
+
 function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
@@ -68,7 +195,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     for (const section of sections) {
       const option = document.createElement('option');
       option.value = section;
-      option.textContent = section;
+      option.textContent = t(sectionTranslationKeys[section] ?? section);
       sectionFilter.appendChild(option);
     }
 
@@ -77,6 +204,16 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
       option.value = category;
       option.textContent = category;
       categoryFilter.appendChild(option);
+    }
+  }
+
+  function updateSectionFilterLabels() {
+    for (const option of sectionFilter.options) {
+      if (option.value !== 'all') {
+        option.textContent = t(
+          sectionTranslationKeys[option.value] ?? option.value,
+        );
+      }
     }
   }
 
@@ -128,7 +265,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
     const heading = document.createElement('h2');
     heading.className = 'section-heading';
-    heading.textContent = name;
+    heading.textContent = t(sectionTranslationKeys[name] ?? name);
     fragment.append(heading);
 
     const note = state.sectionNotes[name];
@@ -157,7 +294,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const shareButton = document.createElement('button');
     shareButton.type = 'button';
     shareButton.className = 'share-button';
-    shareButton.setAttribute('aria-label', 'Copy link to this move');
+    shareButton.setAttribute('aria-label', t('copyMoveLink'));
     shareButton.textContent = '🔗';
     shareButton.addEventListener('click', () => {
       const url = `${location.origin}${location.pathname}#${move._id}`;
@@ -185,7 +322,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
       const label = document.createElement('span');
       label.className = 'translation-label';
-      label.textContent = 'EN';
+      label.textContent = t('translationLanguage');
       gloss.append(label);
 
       const text = document.createElement('span');
@@ -202,7 +339,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
       const label = document.createElement('span');
       label.className = 'aka-label';
-      label.textContent = 'Also known as';
+      label.textContent = t('alsoKnownAs');
       akaEl.append(label);
 
       const list = document.createElement('ul');
@@ -236,7 +373,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
       const label = document.createElement('span');
       label.className = 'variants-label';
-      label.textContent = 'Variants';
+      label.textContent = t('variants');
       variantsWrap.append(label);
 
       const list = document.createElement('ul');
@@ -277,7 +414,7 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     if (videos.length === 0) {
       const link = document.createElement('span');
       link.className = 'video-link video-link--missing';
-      link.textContent = 'No video yet';
+      link.textContent = t('noVideo');
       linkWrap.append(link);
     } else {
       for (const video of videos) {
@@ -286,7 +423,9 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
         link.href = video.url;
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
-        link.textContent = video.label ? `${video.label} ↗` : 'Watch video ↗';
+        link.textContent = video.label
+          ? `${video.label} ↗`
+          : `${t('watchVideo')} ↗`;
         linkWrap.append(link);
       }
     }
@@ -368,6 +507,11 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
 
     categoryFilter.addEventListener('change', (e) => {
       state.category = e.target.value;
+      render();
+    });
+
+    window.addEventListener('localechange', () => {
+      updateSectionFilterLabels();
       render();
     });
   }
@@ -453,5 +597,15 @@ function initThemeToggle() {
   });
 }
 
+function initLanguageToggle() {
+  document.getElementById('language-toggle').addEventListener('click', () => {
+    locale = locale === 'en' ? 'es' : 'en';
+    localStorage.setItem('locale', locale);
+    applyLocale();
+  });
+}
+
 initTabs();
 initThemeToggle();
+initLanguageToggle();
+applyLocale();
