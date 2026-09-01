@@ -524,12 +524,6 @@
     "translation": "Complicated Hat"
   },
   {
-    "name": "Sombrero de Abajo",
-    "category": "Sombrero",
-    "video": "",
-    "translation": "Hat From Below"
-  },
-  {
     "name": "Sombrero de Maní",
     "category": "Sombrero",
     "video": "",
@@ -597,13 +591,13 @@
   },
   {
     "name": "6 Y 9",
-    "category": "General",
+    "category": "Setenta",
     "video": "",
     "translation": "Six And Nine"
   },
   {
     "name": "Abrazala",
-    "category": "Abrazala",
+    "category": "Dedo",
     "video": "",
     "translation": "Embrace Her"
   },
@@ -615,7 +609,7 @@
   },
   {
     "name": "Consorte",
-    "category": "General",
+    "category": "Setenta",
     "video": "",
     "translation": "Partner / Consort"
   },
@@ -633,25 +627,25 @@
   },
   {
     "name": "Disponible Completo",
-    "category": "General",
+    "category": "Vacila",
     "video": "",
     "translation": "Available, Complete"
   },
   {
     "name": "Disponible Simple",
-    "category": "General",
+    "category": "Vacila",
     "video": "",
     "translation": "Available, Simple"
   },
   {
     "name": "El Anillo",
-    "category": "General",
+    "category": "Enchufala",
     "video": "",
     "translation": "The Ring"
   },
   {
     "name": "El Cero",
-    "category": "Enchufla",
+    "category": "Vacila",
     "video": "",
     "translation": "The Zero"
   },
@@ -681,7 +675,7 @@
   },
   {
     "name": "Pedro Navaja",
-    "category": "General",
+    "category": "Enchufala",
     "video": "",
     "translation": "Pedro Navaja"
   },
@@ -693,7 +687,7 @@
   },
   {
     "name": "Por Dentro Y Por Afuera",
-    "category": "General",
+    "category": "Enchufla",
     "video": "",
     "translation": "Inside And Outside"
   },
@@ -759,21 +753,9 @@
   },
   {
     "name": "Three Way Stop",
-    "category": "General",
+    "category": "Vacila",
     "video": "",
     "translation": "Three Way Stop"
-  },
-  {
-    "name": "Un Tarro",
-    "category": "Pa' Arriba",
-    "video": "",
-    "translation": "Un Tarro"
-  },
-  {
-    "name": "Un Tarro De Mentira",
-    "category": "Pa' Arriba",
-    "video": "",
-    "translation": "Un Tarro De Mentira"
   },
   {
     "name": "Vacila De Mentira",
@@ -789,7 +771,7 @@
   },
   {
     "name": "Yogurt",
-    "category": "General",
+    "category": "Guapea",
     "video": "",
     "translation": "Yogurt"
   }
