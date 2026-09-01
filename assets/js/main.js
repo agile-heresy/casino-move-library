@@ -332,9 +332,13 @@ function createPanel({ dataUrl, elementSuffix, normalize }) {
     const rawData = Array.isArray(dataUrl)
       ? (
           await Promise.all(
-            dataUrl.map(async (url) => {
+            dataUrl.map(async (source) => {
+              const url = typeof source === 'string' ? source : source.url;
               const response = await fetch(url);
-              return response.json();
+              const data = await response.json();
+              return source.section
+                ? data.map((move) => ({ ...move, section: source.section }))
+                : data;
             }),
           )
         ).flat()
@@ -396,9 +400,15 @@ function initTabs() {
 // current library: flat array of moves with a single `video` string
 createPanel({
   dataUrl: [
-    'data/sections/partnerwork-moves.json',
-    'data/sections/rueda-moves.json',
-    'data/sections/rueda-structures.json',
+    {
+      url: 'data/sections/partnerwork-moves.json',
+      section: 'Partnerwork Moves',
+    },
+    { url: 'data/sections/rueda-moves.json', section: 'Rueda Moves' },
+    {
+      url: 'data/sections/rueda-structures.json',
+      section: 'Rueda Structures',
+    },
   ],
   elementSuffix: 'current',
   normalize: (data) => ({
