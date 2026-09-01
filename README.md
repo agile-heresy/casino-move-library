@@ -14,12 +14,13 @@ Live site: https://agile-heresy.github.io/casino-move-library/
 - Search plus move-type/family dropdown filters on each tab.
 - English translations shown under each move name, with alt names ("Also known as") and variants each carrying their own translation.
 - Light/dark theme toggle (persisted in `localStorage`, defaults to OS preference).
+- English/Spanish interface toggle using Cuban and U.S. flags (persisted in `localStorage`); it translates page copy, controls, and move-type/level labels without changing the JSON-backed move data.
 
 ## Structure
 
 - `index.html` — page markup, tabs, header
 - `assets/css/style.css` — styling (theme variables, card layout)
-- `assets/js/main.js` — loads both JSON files, renders cards, handles search/filtering/theme toggle
+- `assets/js/main.js` — loads both JSON files, renders cards, and handles search/filtering, theme, and language toggles
 - `data/sections/*.json` — current library, split by section and sorted alphabetically within family and move name
 - `data/archive.json` — historical Tumblr archive (edit if you find corrections to old entries)
 
